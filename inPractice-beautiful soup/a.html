@@ -1,0 +1,2008 @@
+
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+                <meta content="always" name="referrer">
+                <meta name="theme-color" content="#2932e1">
+                <link rel="shortcut icon" href="//www.baidu.com/favicon.ico" type="image/x-icon" />
+                <link rel="icon" sizes="any" mask href="//www.baidu.com/img/baidu_85beaf5496f291521eb75ba38eacbd87.svg">
+                <link rel="dns-prefetch" href="//fyb-pc-static.cdn.bcebos.com"/>
+                <meta name="keywords" content="百度热搜,百度热搜榜,百度搜索排行榜,搜索排行榜,百度热门搜索,今日热搜,今日热点,排行榜,热搜榜,热词榜,热门话题,网络热点,实时热点,热门事件,热点">
+                <meta name="description" content="百度热搜以数亿用户海量的真实数据为基础，通过专业的数据挖掘方法，计算关键词的热搜指数，旨在建立权威、全面、热门、时效的各类关键词排行榜，引领热词阅读时代。">
+                <script src="//fe-prod.cdn.bcebos.com/wise/svg/polyfills.js" defer></script>
+                <script src="//fe-prod.cdn.bcebos.com/wise/svg/polyfillsIE.js" defer></script>
+                <script id="svglib" src="//fe-prod.cdn.bcebos.com/wise/svn.min.js" defer></script>
+                <title>百度热搜</title>
+                <style data-vue-ssr-id="22cfed39:0">
+.c-gap-top-small {
+  margin-top: 3px;
+}
+.c-gap-top {
+  margin-top: 7px;
+}
+.c-gap-top-large {
+  margin-top: 11px;
+}
+.c-gap-top-mini {
+  margin-top: 2px;
+}
+.c-gap-top-xsmall {
+  margin-top: 4px;
+}
+.c-gap-top-middle {
+  margin-top: 10px;
+}
+.c-gap-bottom-small {
+  margin-bottom: 3px;
+}
+.c-gap-bottom {
+  margin-bottom: 7px;
+}
+.c-gap-bottom-large {
+  margin-bottom: 11px;
+}
+.c-gap-bottom-mini {
+  margin-bottom: 2px;
+}
+.c-gap-bottom-xsmall {
+  margin-bottom: 4px;
+}
+.c-gap-bottom-middle {
+  margin-bottom: 10px;
+}
+.c-gap-left {
+  margin-left: 12px;
+}
+.c-gap-left-small {
+  margin-left: 8px;
+}
+.c-gap-left-xsmall {
+  margin-left: 4px;
+}
+.c-gap-left-mini {
+  margin-left: 2px;
+}
+.c-gap-left-large {
+  margin-left: 16px;
+}
+.c-gap-left-middle {
+  margin-left: 10px;
+}
+.c-gap-right {
+  margin-right: 12px;
+}
+.c-gap-right-small {
+  margin-right: 8px;
+}
+.c-gap-right-xsmall {
+  margin-right: 4px;
+}
+.c-gap-right-mini {
+  margin-right: 2px;
+}
+.c-gap-right-large {
+  margin-right: 16px;
+}
+.c-gap-right-middle {
+  margin-right: 10px;
+}
+.c-gap-icon-right-small {
+  margin-right: 5px;
+}
+.c-gap-icon-right {
+  margin-right: 10px;
+}
+.c-gap-icon-left-small {
+  margin-left: 5px;
+}
+.c-gap-icon-left {
+  margin-left: 10px;
+}
+.c-row {
+  *zoom: 1;
+}
+.c-row:after {
+  display: block;
+  height: 0;
+  content: "";
+  clear: both;
+  visibility: hidden;
+}
+.c-span1 {
+  width: 32px;
+}
+.c-span2 {
+  width: 80px;
+}
+.c-span3 {
+  width: 128px;
+}
+.c-span4 {
+  width: 176px;
+}
+.c-span5 {
+  width: 224px;
+}
+.c-span6 {
+  width: 272px;
+}
+.c-span7 {
+  width: 320px;
+}
+.c-span8 {
+  width: 368px;
+}
+.c-span9 {
+  width: 416px;
+}
+.c-span10 {
+  width: 464px;
+}
+.c-span11 {
+  width: 512px;
+}
+.c-span12 {
+  width: 560px;
+}
+.c-span2,
+.c-span3,
+.c-span4,
+.c-span5,
+.c-span6,
+.c-span7,
+.c-span8,
+.c-span9,
+.c-span10,
+.c-span11,
+.c-span12 {
+  float: left;
+  _display: inline;
+  margin-right: 16px;
+  list-style: none;
+}
+.c-span-last {
+  margin-right: 0;
+}
+.c-span-last-s {
+  margin-right: 0;
+}
+.c-feed-box .c-span1 {
+  width: 43px;
+}
+.c-feed-box .c-span2 {
+  width: 90px;
+}
+.c-feed-box .c-span3 {
+  width: 137px;
+}
+.c-feed-box .c-span4 {
+  width: 184px;
+}
+.c-feed-box .c-span5 {
+  width: 231px;
+}
+.c-feed-box .c-span6 {
+  width: 278px;
+}
+.c-feed-box .c-span7 {
+  width: 325px;
+}
+.c-feed-box .c-span8 {
+  width: 372px;
+}
+.c-feed-box .c-span9 {
+  width: 419px;
+}
+.c-feed-box .c-span10 {
+  width: 466px;
+}
+.c-feed-box .c-span11 {
+  width: 513px;
+}
+.c-feed-box .c-span12 {
+  width: 560px;
+}
+.c-feed-box .c-span2,
+.c-feed-box .c-span3,
+.c-feed-box .c-span4,
+.c-feed-box .c-span5,
+.c-feed-box .c-span6,
+.c-feed-box .c-span7,
+.c-feed-box .c-span8,
+.c-feed-box .c-span9,
+.c-feed-box .c-span10,
+.c-feed-box .c-span11,
+.c-feed-box .c-span12 {
+  margin-right: 4px;
+}
+.c-feed-box .c-span-last {
+  margin-right: 0;
+}
+.c-index {
+  display: inline-block;
+  width: 14px;
+  padding: 1px 0;
+  line-height: 100%;
+  text-align: center;
+  color: #fff;
+  background-color: #8eb9f5;
+  font-size: 12px;
+}
+.c-index-hot,
+.c-index-hot1 {
+  background-color: #f54545;
+}
+.c-index-hot2 {
+  background-color: #ff8547;
+}
+.c-index-hot3 {
+  background-color: #ffac38;
+}
+.c-index-single {
+  display: inline-block;
+  background: 0 0;
+  color: #9195A3;
+  width: 18px;
+  font-size: 15px;
+  letter-spacing: -1px;
+}
+.c-index-single-hot,
+.c-index-single-hot1 {
+  color: #FE2D46;
+}
+.c-index-single-hot2 {
+  color: #F60;
+}
+.c-index-single-hot3 {
+  color: #FAA90E;
+}
+.c-font-sigma {
+  font: 36px/60px Arial, sans-serif;
+}
+.c-font-large {
+  font: 20px/30px Arial, sans-serif;
+}
+.c-font-big {
+  font: 20px/30px Arial, sans-serif;
+}
+.c-font-special {
+  font: 16px/26px Arial, sans-serif;
+}
+.c-font-medium {
+  font: 14px/24px Arial, sans-serif;
+}
+.c-font-middle {
+  font: 14px/24px Arial, sans-serif;
+}
+.c-font-normal {
+  font: 13px/23px Arial, sans-serif;
+}
+.c-font-small {
+  font: 12px/20px Arial, sans-serif;
+}
+.c-font-family {
+  font-family: Arial, sans-serif;
+}
+.c-color-t {
+  color: #222;
+}
+.c-color-text {
+  color: #333;
+}
+.c-color-gray {
+  color: #626675;
+}
+.c-color-gray2 {
+  color: #9195A3;
+}
+.c-color-visited {
+  color: #626675;
+}
+.c-color-link {
+  color: #222;
+}
+.c-color-orange {
+  color: #FA4901;
+}
+.c-color-green {
+  color: #0EBE90;
+}
+.c-color-ad {
+  color: #77A9F9;
+}
+.c-color-red {
+  color: #F63051;
+}
+.c-color-red:visited {
+  color: #F63051;
+}
+.c-color-warn {
+  color: #FF7900;
+}
+.c-color-warn:visited {
+  color: #FF7900;
+}
+.c-color-link {
+  color: #3951b3;
+}
+.c-btn,
+.c-btn:visited {
+  color: #333 !important;
+}
+.c-btn {
+  display: inline-block;
+  overflow: hidden;
+  font-family: inherit;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  outline: 0;
+  border: 0;
+  height: 30px;
+  width: 80px;
+  line-height: 30px;
+  font-size: 13px;
+  border-radius: 6px;
+  padding: 0;
+  background-color: #F5F5F6;
+  *zoom: 1;
+  cursor: pointer;
+}
+.c-btn:hover {
+  background-color: #315EFB;
+  color: #FFF !important;
+}
+a.c-btn {
+  text-decoration: none;
+}
+button.c-btn {
+  *overflow: visible;
+  border: 0;
+}
+button.c-btn::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+.c-btn-disable {
+  color: #C4C7CE !important;
+}
+.c-btn-disable:visited {
+  color: #C4C7CE !important;
+}
+.c-btn-disable:hover {
+  cursor: default;
+  color: #C4C7CE !important;
+  background-color: #F5F5F6;
+}
+.c-btn-mini {
+  height: 24px;
+  width: 48px;
+  line-height: 24px;
+}
+.c-btn-mini .c-icon {
+  margin-top: 2px;
+}
+.c-btn-large {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+}
+button.c-btn-large {
+  height: 30px;
+  _line-height: 24px;
+}
+.c-btn-large .c-icon {
+  margin-top: 7px;
+  _margin-top: 6px;
+}
+.c-btn-primary,
+.c-btn-primary:visited {
+  color: #fff !important;
+}
+.c-btn-primary {
+  background-color: #4E6EF2;
+}
+.c-btn-primary:hover {
+  background-color: #315EFB;
+}
+.c-btn-weak {
+  height: 24px;
+  line-height: 24px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+.c-btn-add {
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #9195A3 !important;
+}
+.c-btn-add:hover {
+  background-color: #4E6EF2;
+  color: #fff !important;
+}
+.c-btn-add .c-icon {
+  float: none;
+}
+.c-btn-add-disable:hover {
+  cursor: default;
+  color: #C4C7CE !important;
+  background-color: #F5F5F6;
+}
+.c-select {
+  position: relative;
+  display: inline-block;
+  width: 96px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  vertical-align: middle;
+  color: #222;
+  font: 13px/23px Arial, sans-serif;
+}
+.c-select-selection {
+  display: block;
+  height: 30px;
+  line-height: 29px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0 26px 0 10px;
+  background-color: #fff;
+  border-radius: 6px;
+  border: 1px solid #D7D9E0;
+  outline: 0;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.c-select-arrow,
+.c-select-arrow-up {
+  position: absolute;
+  top: -1px;
+  right: 10px;
+  color: #9195A3;
+  font-size: 16px;
+}
+.c-select-dropdown {
+  display: none;
+  position: absolute;
+  padding-top: 4px;
+  top: 25px;
+  z-index: 999;
+  left: 0;
+  width: 94px;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  background: #fff;
+  border-radius: 0 0 6px 6px;
+  border: 1px solid #D7D9E0;
+  border-top: 0;
+  zoom: 1;
+}
+.c-select-split {
+  border-top: 1px solid #f5f5f5;
+  margin: 0 5px;
+}
+.c-select-dropdown-list {
+  padding: 0;
+  margin: 5px 0 0;
+  list-style: none;
+}
+.c-select-dropdown-list.c-select-scroll {
+  max-height: 207px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-right: 5px;
+  margin-bottom: 9px;
+}
+.c-select-dropdown-list.c-select-scroll::-webkit-scrollbar {
+  width: 2px;
+}
+.c-select-dropdown-list.c-select-scroll::-webkit-scrollbar-track {
+  width: 2px;
+  background: #f5f5f6;
+  border-radius: 1px;
+}
+.c-select-dropdown-list.c-select-scroll::-webkit-scrollbar-thumb {
+  width: 2px;
+  height: 58px;
+  background-color: #4e71f2;
+  border-radius: 1px;
+}
+.c-select-dropdown-list.c-select-scroll .c-select-item:last-child {
+  margin: 0;
+}
+.c-select-item {
+  margin: 0 0 4px;
+  padding: 0 10px;
+  clear: both;
+  white-space: nowrap;
+  list-style: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.c-select-item:hover {
+  color: #315EFB;
+}
+.c-select-item-selected {
+  color: #315EFB;
+}
+.c-select-arrow-up {
+  display: none;
+}
+.c-select-visible .c-select-selection {
+  border-radius: 6px 6px 0 0;
+}
+.c-select-visible .c-select-dropdown {
+  display: block;
+}
+.c-select-visible .c-select-arrow {
+  display: none;
+}
+.c-select-visible .c-select-arrow-up {
+  display: inline-block;
+}
+.c-img {
+  position: relative;
+  display: block;
+  min-height: 1px;
+  border: 0;
+  line-height: 0;
+  background: #f5f5f6;
+  overflow: hidden;
+}
+.c-img img {
+  width: 100%;
+}
+.c-img1 {
+  width: 32px;
+}
+.c-img2 {
+  width: 80px;
+}
+.c-img3 {
+  width: 128px;
+}
+.c-img4 {
+  width: 176px;
+}
+.c-img6 {
+  width: 272px;
+}
+.c-img12 {
+  width: 560px;
+}
+.c-feed-box .c-img1 {
+  width: 43px;
+}
+.c-feed-box .c-img2 {
+  width: 90px;
+}
+.c-feed-box .c-img3 {
+  width: 137px;
+}
+.c-feed-box .c-img4 {
+  width: 184px;
+}
+.c-feed-box .c-img6 {
+  width: 278px;
+}
+.c-feed-box .c-img12 {
+  width: 560px;
+}
+.c-img-s,
+.c-img-l,
+.c-img-w,
+.c-img-x,
+.c-img-y,
+.c-img-v,
+.c-img-z {
+  height: 0;
+  overflow: hidden;
+}
+.c-img-s {
+  padding-bottom: 100%;
+}
+.c-img-l {
+  padding-bottom: 133.33333333%;
+}
+.c-img-w {
+  padding-bottom: 56.25%;
+}
+.c-img-x {
+  padding-bottom: 75%;
+}
+.c-img-y {
+  padding-bottom: 66.66666667%;
+}
+.c-img-v {
+  padding-bottom: 116.66666667%;
+}
+.c-img-z {
+  padding-bottom: 62.5%;
+}
+.c-img-radius {
+  border-radius: 6px;
+}
+.c-img-radius-s {
+  border-radius: 2px;
+}
+.c-img-radius-small {
+  border-radius: 2px;
+}
+.c-img-radius-large {
+  border-radius: 12px;
+}
+.c-img-radius-middle {
+  border-radius: 4px;
+}
+.c-img-radius-left {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.c-img-radius-right {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.c-img-radius-left-s {
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.c-img-radius-right-s {
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.c-img-radius-left-l {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.c-img-radius-right-l {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.c-img-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.04));
+  background-image: -ms-radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.04));
+}
+.c-img-border {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.c-img-circle {
+  border-radius: 100%;
+  overflow: hidden;
+}
+.c-input {
+  display: inline-block;
+  font: 13px/23px Arial, sans-serif;
+  color: #333;
+  padding: 0 10px;
+  border: 1px solid #D7D9E0;
+  border-radius: 6px;
+  height: 28px;
+  line-height: 28px\9;
+  font-size: 13px;
+  outline: 0;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  vertical-align: top;
+  overflow: hidden;
+}
+.c-input .c-icon {
+  float: right;
+  margin-top: 6px;
+  font-size: 16px;
+  color: #9195A3;
+}
+.c-input .c-icon-left {
+  float: left;
+  margin-right: 4px;
+}
+.c-input input {
+  float: left;
+  font-size: 13px;
+  border: 0;
+  outline: 0;
+}
+.c-input input::-webkit-input-placeholder {
+  color: #9195A3;
+}
+.c-input input::-ms-input-placeholder {
+  color: #9195A3;
+}
+.c-input input::-moz-placeholder {
+  color: #9195A3;
+}
+.c-input::-webkit-input-placeholder {
+  color: #9195A3;
+}
+.c-input::-ms-input-placeholder {
+  color: #9195A3;
+}
+.c-input::-moz-placeholder {
+  color: #9195A3;
+}
+.c-input {
+  width: 394px;
+}
+.c-input input {
+  width: 374px;
+}
+.c-input-xmini {
+  width: 154px;
+}
+.c-input-xmini input {
+  width: 134px;
+}
+.c-input-mini {
+  width: 202px;
+}
+.c-input-mini input {
+  width: 182px;
+}
+.c-input-small {
+  width: 346px;
+}
+.c-input-small input {
+  width: 326px;
+}
+.c-input-large {
+  width: 442px;
+}
+.c-input-large input {
+  width: 422px;
+}
+.c-input-xlarge {
+  width: 730px;
+}
+.c-input-xlarge input {
+  width: 710px;
+}
+.c-input12 {
+  width: 538px;
+}
+.c-input12 input {
+  width: 518px;
+}
+.c-input20 {
+  width: 922px;
+}
+.c-input20 input {
+  width: 902px;
+}
+.c-radio,
+.c-checkbox {
+  display: inline-block;
+  position: relative;
+  white-space: nowrap;
+  outline: 0;
+  line-height: 1;
+  vertical-align: middle;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}
+.c-radio-inner,
+.c-checkbox-inner {
+  display: inline-block;
+  position: relative;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  color: #D7D9E0;
+}
+.c-radio-input,
+.c-checkbox-input {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 0;
+  filter: alpha(opacity=0) \9;
+  user-select: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  zoom: 1;
+}
+.c-radio-inner-i,
+.c-checkbox-inner-i {
+  display: none;
+  font-size: 16px;
+}
+.c-radio-inner-bg,
+.c-checkbox-inner-bg {
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.c-radio-checked .c-radio-inner-i,
+.c-checkbox-checked .c-checkbox-inner-i {
+  color: #4E71F2;
+  display: inline-block;
+}
+.c-textarea {
+  font: 13px/23px Arial, sans-serif;
+  color: #333;
+  padding: 0 10px;
+  border: 1px solid #D7D9E0;
+  border-radius: 6px;
+  padding: 5px 10px;
+  resize: none;
+  outline: 0;
+}
+.c-textarea::-webkit-input-placeholder {
+  color: #9195A3;
+}
+.c-textarea::-ms-input-placeholder {
+  color: #9195A3;
+}
+.c-textarea::-moz-placeholder {
+  color: #9195A3;
+}
+.c-icon {
+  font-family: cIconfont!important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.c-line-clamp1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.c-line-clamp2 {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.c-text {
+  display: inline-block;
+  padding: 0 2px;
+  text-align: center;
+  vertical-align: middle;
+  font-style: normal;
+  color: #fff;
+  overflow: hidden;
+  line-height: 16px;
+  height: 16px;
+  font-size: 12px;
+  border-radius: 4px;
+  font-weight: 200;
+}
+a.c-text {
+  text-decoration: none !important;
+}
+.c-text-info {
+  padding-left: 0;
+  padding-right: 0;
+  font-weight: 700;
+  color: #2b99ff;
+  vertical-align: text-bottom;
+}
+.c-text-info span {
+  padding: 0 2px;
+  font-weight: 400;
+}
+.c-text-important {
+  background-color: #1cb7fd;
+}
+.c-text-public {
+  background-color: #4E6EF2;
+}
+.c-text-warning {
+  background-color: #f60;
+}
+.c-text-prompt {
+  background-color: #ffc20d;
+}
+.c-text-danger {
+  background-color: #f73131;
+}
+.c-text-safe {
+  background-color: #39b362;
+}
+.c-text-mult {
+  padding: 0 4px;
+  line-height: 18px;
+  height: 18px;
+  border-radius: 4px;
+  font-weight: 400;
+}
+.c-text-blue {
+  background-color: #4E6EF2;
+}
+.c-text-blue-border {
+  border: 1px solid #CBD2FF;
+  padding: 0 8px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #4E6EF2 !important;
+}
+.c-text-green {
+  background-color: #39b362;
+}
+.c-text-green-border {
+  border: 1px solid #C9E7CD;
+  padding: 0 8px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #39b362 !important;
+}
+.c-text-red {
+  background-color: #f73131;
+}
+.c-text-red-border {
+  border: 1px solid #F0C8BD;
+  padding: 0 8px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #f73131 !important;
+}
+.c-text-yellow {
+  background-color: #ffc20d;
+}
+.c-text-yellow-border {
+  border: 1px solid #FCEDB1;
+  padding: 0 8px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #ffc20d !important;
+}
+.c-text-orange {
+  background-color: #f60;
+}
+.c-text-orange-border {
+  border: 1px solid #F8D2B0;
+  padding: 0 8px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #f60 !important;
+}
+.c-text-pink {
+  background-color: #fc3274;
+}
+.c-text-pink-border {
+  border: 1px solid #F6C4D7;
+  padding: 0 8px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #fc3274 !important;
+}
+.c-text-gray {
+  background-color: #858585;
+}
+.c-text-gray-border {
+  border: 1px solid #DBDBDB;
+  padding: 0 8px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #858585 !important;
+}
+.c-text-dark-red {
+  background-color: #CC2929;
+}
+.c-text-gray-opacity {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.c-text-white-border {
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  padding: 0 8px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #fff !important;
+}
+.c-text-hot {
+  background-color: #F60;
+}
+.c-text-new {
+  background-color: #FF455B;
+}
+.c-text-fei {
+  background-color: #FC3200;
+}
+.c-text-bao {
+  background-color: #DE1544;
+}
+.c-text-rec {
+  background-color: #4DADFE;
+}
+.c-text-business {
+  background-color: #B4C4FF;
+}
+.c-text-time {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.c-wrapper {
+  word-wrap: break-word;
+  word-break: break-all;
+  font: 14px/24px Arial, sans-serif;
+  color: #222;
+}
+.c-wrapper:after {
+  display: block;
+  height: 0;
+  content: "";
+  clear: both;
+  visibility: hidden;
+}
+.c-container {
+  width: 560px;
+}
+.c-wrapper-l {
+  width: 1040px;
+}
+.c-wrapper-l .c-container-r {
+  width: 368px;
+}
+.c-wrapper-s {
+  width: 896px;
+}
+.c-wrapper-s .c-container-r {
+  width: 272px;
+}
+@media screen and (max-width: 1340px) {
+  .c-wrapper {
+    width: 896px;
+  }
+  .c-wrapper .c-container-r {
+    width: 272px;
+  }
+}
+.c-dialog-box {
+  display: none;
+  position: absolute;
+  z-index: 999;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  background: #FFF;
+  padding: 19px 24px;
+}
+.c-dialog-box .c-dialog-close {
+  position: absolute;
+  cursor: pointer;
+  top: 12px;
+  right: 12px;
+  height: 14px;
+  width: 14px;
+  line-height: 1;
+  color: #D7D9E0;
+}
+.c-dialog-box .c-dialog-close:hover {
+  color: #315EFB;
+}
+.c-floating-box {
+  background: #FFF;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
+  -o-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  *border: 1px solid #D7D9E0;
+}
+.c-link {
+  color: #222;
+  text-decoration: none;
+}
+.c-link:visited {
+  color: #626675;
+}
+.c-link:hover {
+  color: #315EFB;
+  text-decoration: none;
+}
+.c-capsule-tip {
+  display: inline-block;
+  background: #F63051;
+  border-radius: 7px;
+  padding: 0 4px;
+  height: 13px;
+  font-size: 11px;
+  line-height: 14px;
+  color: #fff;
+  text-align: center;
+}
+html,
+body {
+  height: 100%;
+  color: #222;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+button,
+input,
+img {
+  outline: 0;
+  border: 0;
+}
+button {
+  background-color: unset;
+}
+button,
+a {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+.wrapper {
+  min-width: 1320px;
+}
+.wrapper .responsive-wrapper {
+  min-width: 1320px;
+}
+@media (max-width: 1320px) {
+  .wrapper {
+    min-width: 1320px;
+  }
+  .wrapper .responsive-wrapper {
+    min-width: 1320px;
+  }
+}
+.wrapper-narrow {
+  min-width: 1320px;
+}
+.wrapper-narrow .responsive-wrapper {
+  min-width: 1320px;
+}
+.container {
+  display: block;
+  width: 1088px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+@media (max-width: 1320px) {
+  .container {
+    width: 992px;
+  }
+}
+.wrapper-narrow .container {
+  width: 992px;
+}
+.rel {
+  position: relative;
+}
+.abs {
+  position: absolute;
+}
+@font-face {
+  font-family: 'cIconfont';
+  src: url(//fyb-pc-static.cdn.bcebos.com/static/asset/iconfont_489aa1f2f0a6e1dfacb56a991a67d6cf.eot);
+  src: url(//fyb-pc-static.cdn.bcebos.com/static/asset/iconfont_489aa1f2f0a6e1dfacb56a991a67d6cf.eot?#iefix) format('embedded-opentype'), url(//fyb-pc-static.cdn.bcebos.com/static/asset/iconfont_92a48d1bbedbf4e9edf36cb3b355039a.woff2) format('woff2'), url(//fyb-pc-static.cdn.bcebos.com/static/asset/iconfont_8d19d0cbd6e76cd46858910930e4c4ba.woff) format('woff'), url(//fyb-pc-static.cdn.bcebos.com/static/asset/iconfont_4906e5628fa7ee368606ee5fa605ff40.ttf) format('ttf'), url(//fyb-pc-static.cdn.bcebos.com/static/asset/iconfont_5bfbad8e8b4fb39824e4823554647eb3.svg#iconfont) format('svg');
+}
+[theme="realtime"] .c-theme-color,
+[theme="homepage"] .c-theme-color {
+  color: #ff6600;
+}
+[theme="realtime"] .c-theme-color-bg,
+[theme="homepage"] .c-theme-color-bg {
+  background-color: #ff6600;
+}
+[theme="novel"] .c-theme-color {
+  color: #faa90e;
+}
+[theme="novel"] .c-theme-color-bg {
+  background-color: #faa90e;
+}
+[theme="movie"] .c-theme-color {
+  color: #495dee;
+}
+[theme="movie"] .c-theme-color-bg {
+  background-color: #495dee;
+}
+[theme="teleplay"] .c-theme-color {
+  color: #495dee;
+}
+[theme="teleplay"] .c-theme-color-bg {
+  background-color: #495dee;
+}
+[theme="cartoon"] .c-theme-color {
+  color: #ff6600;
+}
+[theme="cartoon"] .c-theme-color-bg {
+  background-color: #ff6600;
+}
+[theme="variety"] .c-theme-color {
+  color: #8a42ff;
+}
+[theme="variety"] .c-theme-color-bg {
+  background-color: #8a42ff;
+}
+[theme="documentary"] .c-theme-color {
+  color: #319ef3;
+}
+[theme="documentary"] .c-theme-color-bg {
+  background-color: #319ef3;
+}
+[theme="game"] .c-theme-color {
+  color: #319ef3;
+}
+[theme="game"] .c-theme-color-bg {
+  background-color: #319ef3;
+}
+[theme="car"] .c-theme-color {
+  color: #00b8b9;
+}
+[theme="car"] .c-theme-color-bg {
+  background-color: #00b8b9;
+}
+.c-single-text-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.bg-wrapper {
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+  width: 100%;
+  height: 800px;
+}
+.bg-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 1;
+  height: 100%;
+  margin-left: -960px;
+}
+.bg-wrapper img.default {
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  margin-left: 0;
+}
+[theme="homepage"] .bg-wrapper,
+[theme="realtime"] .bg-wrapper {
+  background-image: linear-gradient(180deg, #f44522 0%, #fff 88%);
+}
+[theme="variety"] .bg-wrapper {
+  background-image: linear-gradient(180deg, #b933ed 0%, #fff 100%);
+}
+[theme="car"] .bg-wrapper {
+  background-image: linear-gradient(180deg, #1aaeeb 0%, #fff 100%);
+}
+[theme="novel"] .bg-wrapper,
+[theme="cartoon"] .bg-wrapper {
+  background-image: linear-gradient(180deg, #fc5809 0%, #fff 100%);
+}
+[theme="movie"] .bg-wrapper,
+[theme="teleplay"] .bg-wrapper {
+  background-image: linear-gradient(180deg, #6242dc 0%, #fff 100%);
+}
+[theme="documentary"] .bg-wrapper,
+[theme="game"] .bg-wrapper {
+  background-image: linear-gradient(180deg, #4d6af5 0%, #fff 100%);
+}
+</style>
+<style data-vue-ssr-id="7ef4bd4a:0">
+.header-placeholder_3y-pN {
+  margin-bottom: 8px;
+}
+.header_3wayL {
+  box-sizing: border-box;
+  width: 100%;
+  color: #fff;
+}
+.navi-top-wrapper_20foP {
+  height: 48px;
+  margin-bottom: 34px;
+  color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.navi-top-wrapper_20foP:after {
+  content: '';
+  clear: both;
+}
+.navi-top-left_1Zuqa {
+  top: 0;
+  left: 24px;
+}
+.navi-top-right_33qd2 {
+  top: 0;
+  right: 24px;
+}
+.navi-item_2z3vU {
+  float: left;
+  margin-top: 13px;
+  margin-right: 24px;
+}
+.navi-item_2z3vU:hover {
+  color: #fff;
+}
+.tab-wrap_23sEv {
+  overflow: hidden;
+  margin: 34px auto 24px;
+  padding: 0 9px 0 17px;
+}
+.logo-trends-wrapper_150M5 {
+  float: left;
+  width: 196px;
+  height: 58px;
+  cursor: pointer;
+}
+.logo-trends-wrapper_150M5 > img {
+  width: 100%;
+}
+</style>
+<style data-vue-ssr-id="48b40237:0">
+.user-info-wrapper_3WiHw {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 48px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.user-info-wrapper_3WiHw:hover .user-info-popup_1v_mi {
+  display: block;
+}
+.login-btn_2CUrM {
+  float: left;
+  box-sizing: border-box;
+  margin-top: 12px;
+  padding: 5.5px 0;
+  font-size: 13px;
+  line-height: 13px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #3b1107 !important;
+}
+.login-btn_2CUrM:hover {
+  background-color: #fff;
+}
+.user-image-wrapper_Gz69P {
+  float: left;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  margin-top: 9px;
+  margin-left: -2px;
+  padding: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+}
+.user-image-wrapper_Gz69P .user-image_1nM2E {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.user-name_3qt_g {
+  float: left;
+  margin-top: 13px;
+  margin-left: 6px;
+}
+.user-info-popup_1v_mi {
+  position: absolute;
+  top: 100%;
+  right: 50%;
+  display: none;
+  margin-top: -4px;
+  margin-right: -42px;
+  padding: 0 16px 16px;
+}
+.user-info-popup_1v_mi a {
+  display: block;
+  margin-top: 16px;
+  font-size: 13px;
+  line-height: 13px;
+  word-break: keep-all;
+  color: #333;
+}
+.user-info-popup_1v_mi a:hover {
+  color: #315efb;
+}
+.login-form-wrapper_1E7lG {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  width: 350px;
+  margin: 100px auto;
+}
+.pop-mask {
+  width: 100% !important;
+  height: 100% !important;
+  opacity: 0.5 !important;
+}
+</style>
+<style data-vue-ssr-id="cdc6770a:0">
+.tabs-wrap_3Ac9n {
+  float: right;
+  padding: 13px 0;
+  font-size: 0;
+}
+.tab-item_17MbK {
+  position: relative;
+  display: inline-block;
+  padding: 8px 18px;
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.9);
+}
+@media (max-width: 1320px) {
+  .tab-item_17MbK {
+    padding: 8px 15px;
+  }
+}
+.wrapper-narrow .tab-item_17MbK {
+  padding: 8px 15px;
+}
+.tab-item_17MbK.active {
+  border-radius: 15.5px;
+  background-color: #fff;
+  color: inherit;
+}
+.tab-item_17MbK.active:hover {
+  color: inherit;
+}
+.tab-item_17MbK:hover {
+  color: #fff;
+}
+</style>
+<style data-vue-ssr-id="211c6f11:0">
+.tabs-wrapper_7ri4o {
+  position: fixed;
+  top: -40px;
+  z-index: 99;
+  width: 100%;
+  height: 40px;
+  border-radius: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 1320px) {
+  .tabs-wrapper_7ri4o {
+    min-width: 1320px;
+  }
+}
+.wrapper-narrow .tabs-wrapper_7ri4o {
+  min-width: 1320px;
+}
+.tabs-container__LAaf {
+  padding: 0 24px;
+}
+.tab_3QhDq {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 40px;
+  color: #222;
+}
+.tab_3QhDq.active {
+  color: inherit;
+}
+.tab_3QhDq:hover {
+  color: #315efb;
+}
+.tab_3QhDq + .tab_3QhDq {
+  margin-left: 36px;
+}
+@media (max-width: 1320px) {
+  .tab_3QhDq + .tab_3QhDq {
+    margin-left: 24px;
+  }
+}
+.wrapper-narrow .tab_3QhDq + .tab_3QhDq {
+  margin-left: 24px;
+}
+.active-underline-wrapper_Lv1CQ {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  display: block;
+  overflow: hidden;
+  width: 24px;
+  height: 2px;
+  margin-left: -12px;
+  border-radius: 3.5px;
+}
+.qrcode-wrapper_2Mhwh {
+  float: right;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+}
+.qrcode-wrapper_2Mhwh:hover {
+  color: #fff;
+}
+.qrcode-wrapper_2Mhwh:hover .qrcode-popup_q4FMZ {
+  display: block;
+}
+.fixed .qrcode-wrapper_2Mhwh {
+  color: #222;
+}
+.fixed .qrcode-wrapper_2Mhwh:hover {
+  color: #315efb;
+}
+.qrcode-wrapper_2Mhwh .c-icon {
+  float: left;
+  height: 40px;
+  font-size: 21px;
+  line-height: 40px;
+  vertical-align: middle;
+}
+.qrcode-text_1cRGR {
+  float: left;
+  line-height: 40px;
+}
+.qrcode-popup_q4FMZ {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  z-index: 10;
+  display: none;
+  box-sizing: border-box;
+  width: 128px;
+  margin-top: 4px;
+  margin-left: -64px;
+  padding: 16px;
+  border-radius: 12px;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  background-color: #fff;
+}
+.qrcode-popup_q4FMZ p {
+  margin: 6px 0 0;
+  word-break: keep-all;
+}
+.qrcode-image_3Oyr8 {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin-right: auto;
+  margin-bottom: 8px;
+  margin-left: auto;
+}
+</style>
+<style data-vue-ssr-id="7d5bfdb2:0">
+.empty-img_2yOph {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin: 115px auto 0;
+}
+.empty-text_2IeoW {
+  margin-top: 16px;
+  font-size: 13px;
+  line-height: 13px;
+  text-align: center;
+  color: #626675;
+}
+</style>
+<style data-vue-ssr-id="393f488d:0">
+.container_2VTvm {
+  min-height: 600px;
+}
+.right-container_2EFJr {
+  position: relative;
+  padding-left: 192px;
+}
+.container-bg_lQ801 {
+  border-radius: 12px;
+  background-color: #fff;
+}
+.left-side-wrapper_1kYr7 {
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+}
+.left-side-bg-wrapper_23qvy {
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.left-side-bg-wrapper_23qvy img {
+  width: 100%;
+}
+.left-side_1rpOJ {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  box-sizing: border-box;
+  width: 176px;
+  min-height: 359px;
+  padding: 24px 23px;
+  border-radius: 12px;
+  background-color: #fff;
+}
+.side-title_1wfo5 {
+  margin-bottom: 31px;
+  font-size: 18px;
+  line-height: 18px;
+}
+.path-wrapper_3euWM {
+  padding: 24px 24px 2px;
+  line-height: 13px;
+}
+.path-wrapper_3euWM .c-font-normal {
+  line-height: 13px;
+}
+</style>
+<style data-vue-ssr-id="865f8b72:0">
+.tags-wrap_InWap {
+  margin-top: 24px;
+}
+.tags_1mjZF {
+  overflow: hidden;
+  margin-left: -8px;
+}
+.title_bOM2Q {
+  margin-bottom: 12px;
+  font-size: 13px;
+  line-height: 13px;
+}
+.tag-item_2erEC {
+  float: left;
+  margin: 2px 0;
+  padding: 6px 8px;
+  font-size: 13px;
+  line-height: 13px;
+  color: #626675;
+  cursor: pointer;
+}
+.tag-item_2erEC.active_1oD-- {
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+.tag-item_2erEC:hover {
+  color: #315efb;
+}
+[theme="realtime"] .tag-item_2erEC.active_1oD-- {
+  color: #ff6600;
+}
+[theme="novel"] .tag-item_2erEC.active_1oD-- {
+  color: #faa90e;
+}
+[theme="movie"] .tag-item_2erEC.active_1oD-- {
+  color: #495dee;
+}
+[theme="teleplay"] .tag-item_2erEC.active_1oD-- {
+  color: #495dee;
+}
+[theme="cartoon"] .tag-item_2erEC.active_1oD-- {
+  color: #ff6600;
+}
+[theme="variety"] .tag-item_2erEC.active_1oD-- {
+  color: #8a42ff;
+}
+[theme="documentary"] .tag-item_2erEC.active_1oD-- {
+  color: #319ef3;
+}
+[theme="game"] .tag-item_2erEC.active_1oD-- {
+  color: #319ef3;
+}
+[theme="car"] .tag-item_2erEC.active_1oD-- {
+  color: #00b8b9;
+}
+</style>
+<style data-vue-ssr-id="f3f1d306:0">
+.category-wrap_iQLoo {
+  overflow: hidden;
+  padding: 14px 0;
+  padding-left: 24px;
+}
+.category-wrap_iQLoo:hover {
+  border-radius: 12px;
+  background-color: rgba(245, 245, 246, 0.5);
+  background-image: linear-gradient(to bottom, #f5f5f6 0%, #fff 100%);
+}
+.horizontal_1eKyQ {
+  height: 85px;
+}
+.horizontal_1eKyQ .img-wrapper_29V76 {
+  width: 128px;
+  height: 85px;
+}
+.horizontal_1eKyQ .trend_2RttY .trend-icon_1Z3Cd {
+  margin-top: 2px;
+}
+.horizontal_1eKyQ .trend_2RttY .hot-index_1Bl1a {
+  margin: 8px 0 4px;
+}
+.square_1ULM9 {
+  height: 107px;
+}
+.square_1ULM9 .img-wrapper_29V76 {
+  width: 107px;
+  height: 107px;
+}
+.img-wrapper_29V76 {
+  position: relative;
+  display: block;
+  float: left;
+  overflow: hidden;
+  width: 80px;
+  height: 107px;
+  margin-right: 16px;
+  border-radius: 12px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.img-wrapper_29V76 .border_3WfEn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  border-radius: 12px;
+}
+.img-wrapper_29V76 .index_1Ew5p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 8px 1px 8px 1px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  background-color: #faa90e;
+  color: #fff;
+}
+.img-wrapper_29V76 .index_1Ew5p.c-index-bg1 {
+  background-color: #fe2d46;
+}
+.img-wrapper_29V76 .index_1Ew5p.c-index-bg2 {
+  background-color: #f60;
+}
+.img-wrapper_29V76 img {
+  width: 100%;
+  height: 100%;
+}
+.content_1YWBm {
+  overflow: hidden;
+  margin: 0 150px 0 96px;
+  font-size: 13px;
+  color: #626675;
+}
+.content_1YWBm .title_dIF3B {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  height: 18px;
+  margin: 10px 0 14px;
+  padding-right: 24px;
+  font-size: 18px;
+  line-height: 18px;
+  color: #222;
+}
+.content_1YWBm .title_dIF3B .c-single-text-ellipsis {
+  display: inline-block;
+  max-width: 100%;
+}
+.content_1YWBm .title_dIF3B .hot-tag_1G080 {
+  position: absolute;
+  top: 0.5px;
+  margin-left: 7px;
+}
+.content_1YWBm .title_dIF3B:hover,
+.content_1YWBm .title_dIF3B.hover_128In {
+  color: #315efb;
+}
+.content_1YWBm .intro_1l0wp {
+  margin-bottom: 8px;
+  line-height: 13px;
+}
+.content_1YWBm .hot-desc_1m_jR {
+  line-height: 20px;
+}
+.content_1YWBm .hot-desc_1m_jR.large_nSuFU {
+  display: inline-block;
+}
+.content_1YWBm .hot-desc_1m_jR.small_Uvkd3 {
+  display: none;
+}
+.content_1YWBm .hot-desc_1m_jR.ellipsis_DupbZ .look-more_3oNWC {
+  margin-left: 6px;
+}
+@media (max-width: 1320px) {
+  .content_1YWBm .hot-desc_1m_jR.large_nSuFU {
+    display: none;
+  }
+  .content_1YWBm .hot-desc_1m_jR.small_Uvkd3 {
+    display: block;
+  }
+}
+.wrapper-narrow .content_1YWBm .hot-desc_1m_jR.large_nSuFU {
+  display: none;
+}
+.wrapper-narrow .content_1YWBm .hot-desc_1m_jR.small_Uvkd3 {
+  display: block;
+}
+.content_1YWBm .hot-desc_1m_jR .look-more_3oNWC {
+  position: static;
+}
+.content_1YWBm .desc_3CTjT {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  max-width: 100%;
+  padding-right: 70px;
+  line-height: 13px;
+}
+.content_1YWBm .look-more_3oNWC {
+  position: absolute;
+  right: 0;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.content_1YWBm .look-more_3oNWC:hover {
+  color: #315efb;
+}
+.line_3-bzA {
+  float: right;
+  width: 1px;
+  height: 100%;
+  margin-left: 28px;
+}
+.trend_2RttY {
+  float: right;
+  width: 150px;
+  text-align: center;
+}
+.trend_2RttY.hide-icon {
+  margin-top: 18px;
+}
+.trend_2RttY.hide-icon .trend-icon_1Z3Cd {
+  display: none;
+}
+.trend_2RttY .trend-icon_1Z3Cd {
+  width: 28px;
+  height: 28px;
+  margin-top: 11px;
+}
+.trend_2RttY .hot-index_1Bl1a {
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 16px;
+  color: #9195a3;
+}
+.trend_2RttY .text_1lUwZ {
+  font-size: 13px;
+  line-height: 13px;
+  color: #c4c7ce;
+}
+</style>
+<style data-vue-ssr-id="b516b632:0">
+.img-wrap_JPOmE {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  vertical-align: top;
+}
+.img-wrap_JPOmE img {
+  width: 100%;
+  height: 100%;
+}
+</style>
+<style data-vue-ssr-id="5dc25958:0">
+.footer_aoJsU {
+  text-align: center;
+  height: 40px;
+  color: #bbb;
+  vertical-align: middle;
+}
+.footer_aoJsU:after {
+  content: '';
+  line-height: 40px;
+}
+.footer_aoJsU a {
+  margin-right: 20px;
+}
+.footer_aoJsU a:hover {
+  color: #222;
+}
+</style>
+<style data-vue-ssr-id="eb641056:0">
+.container_2R1hQ {
+  position: fixed;
+  right: 24px;
+  bottom: 64px;
+  background-color: #fbfbfb;
+  width: 44px;
+  border-radius: 22px;
+  z-index: 10;
+}
+@media screen and (max-width: 1158px) {
+  .container_2R1hQ {
+    display: none;
+  }
+}
+.container_2R1hQ > * {
+  display: block;
+  position: relative;
+  height: 44px;
+  line-height: 44px;
+  width: 44px;
+  border-radius: 22px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.container_2R1hQ > *:hover {
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.container_2R1hQ > *:hover .side-float-popup {
+  display: block;
+}
+.container_2R1hQ > * .side-float-popup {
+  display: none;
+  position: absolute;
+  width: auto;
+  word-break: keep-all;
+  padding: 5px 16px;
+  bottom: 50%;
+  margin-bottom: -17px;
+  right: 100%;
+  margin-right: 12px;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+}
+.container_2R1hQ .c-icon {
+  display: block;
+  font-size: 24px;
+  line-height: 24px;
+  height: 24px;
+  color: #626675;
+}
+.container_2R1hQ .c-icon:hover {
+  color: #315efb;
+}
+</style>
+<style data-vue-ssr-id="229c8428:0">
+</style>
+            </head>
+            <body>
+                <div><div id="sanRoot" theme="movie" class="wrapper c-font-normal rel"><!--s-data:{"data":{"userInfo":{"isLogin":0},"tabBoard":[{"index":0,"text":"首页","typeName":"homepage"},{"index":1,"text":"热搜榜","typeName":"realtime"},{"index":2,"text":"小说榜","typeName":"novel"},{"index":3,"text":"电影榜","typeName":"movie"},{"index":4,"text":"电视剧榜","typeName":"teleplay"},{"index":5,"text":"动漫榜","typeName":"cartoon"},{"index":6,"text":"综艺榜","typeName":"variety"},{"index":7,"text":"纪录片榜","typeName":"documentary"},{"index":8,"text":"汽车榜","typeName":"car"},{"index":9,"text":"游戏榜","typeName":"game"}],"cards":[{"component":"textImgListVerticalNormal","text":"电影榜","typeName":"movie","content":[{"index":0,"word":"长津湖","query":"长津湖 电影","show":["类型：全部","演员：段奕宏、易烊千玺"],"desc":"1950年，中国志愿军部队与美军在朝鲜长津湖地区交战，中国人民志愿军第9兵团将美军1个多师分割包围于长津湖地区，歼敌1.3万余人，扭转了战场态势。这次战役收复了三八线以北的东部广大地区，是扭转局势的关键一战，而中国人民志愿军也付出了惨痛的牺牲，在零下三十多摄氏度的极端天气中，很多先烈是以端着枪的姿势被冻僵，体现了志愿军战士服从命令视死如归、冻成冰雕也不退缩的革命精神。","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/0c697ab76e9f3840668f7b260c2782b1","url":"https://www.baidu.com/s?wd=%E9%95%BF%E6%B4%A5%E6%B9%96+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E9%95%BF%E6%B4%A5%E6%B9%96+%E7%94%B5%E5%BD%B1","hotScore":"300002","hotChange":"same","appUrl":"https://www.baidu.com/s?wd=%E9%95%BF%E6%B4%A5%E6%B9%96+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":1,"word":"沙丘","query":"沙丘 电影","show":["类型：剧情","演员：Lior Ashkenazi、Guy Marchand"],"desc":"故事讲述的是一名以色列的男青年在和女友分手后为了疗情伤来到巴黎，然后在这认识了一位即将退休的侦探，故事由此展开...","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/4684b5b0c9c6ac4c6e114554e34af616","url":"https://www.baidu.com/s?wd=%E6%B2%99%E4%B8%98+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E6%B2%99%E4%B8%98+%E7%94%B5%E5%BD%B1","hotScore":"44159","hotChange":"up","appUrl":"https://www.baidu.com/s?wd=%E6%B2%99%E4%B8%98+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":2,"word":"我和我的祖国","query":"我和我的祖国 电影","show":["类型：剧情","演员：黄渤、张译"],"desc":"《前夜》1949年10月1日中华人民共和国成立前夕，为保障开国大典国旗顺利升起，电动旗杆设计安装者林治远（黄渤饰）争分夺秒排除万难，用一个惊心动魄的未眠之夜确保立国大事“万无一失”，而护旗手老方（耿乐饰）等千千万万参与开国大典的工作人员和人民群众齐心协力，攻克了一个又一个难题，终于保障五星红旗顺利飘扬在天安门广场上空。《相遇》1964年，由于原子弹研发工作保密度极高，同事之间也互不知姓名，在国防科","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/b63b7b452e6efddf5cc89f4410322619","url":"https://www.baidu.com/s?wd=%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E7%A5%96%E5%9B%BD+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E7%A5%96%E5%9B%BD+%E7%94%B5%E5%BD%B1","hotScore":"20631","hotChange":"same","appUrl":"https://www.baidu.com/s?wd=%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E7%A5%96%E5%9B%BD+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":3,"word":"我和我的父辈","query":"我和我的父辈 电影","show":["类型：剧情","演员：徐峥、吴京"],"desc":"讲述不同历史时期、各个代表性阶层群体不忘初心、砥砺前行的奋斗历程，以家庭关系为载体，反映时代的变迁和民族精神的传承延续。《乘风》影片取材于抗日战争时期一支战功卓著的铁骑队伍——冀中骑兵团，他们为保护群众撤离，拼死抵抗日军，电影描绘了一组骑兵团与冀中人民共同抗击日寇侵略的军民群像。《诗》以1969年我国研制长征一号火箭、发射首颗人造卫星为背景，以一个普通航天家庭为切口，展现父母一辈艰苦奋斗、无私奉献","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/507a36ef0cc71229bea7ba7749928f52","url":"https://www.baidu.com/s?wd=%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E7%88%B6%E8%BE%88+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E7%88%B6%E8%BE%88+%E7%94%B5%E5%BD%B1","hotScore":"20566","hotChange":"down","appUrl":"https://www.baidu.com/s?wd=%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E7%88%B6%E8%BE%88+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":4,"word":"怒火·重案","query":"怒火·重案 电影","show":["类型：动作","演员：秦岚、甄子丹"],"desc":"重案组布网围剿国际毒枭，突然杀出一组蒙面悍匪“黑吃黑”，更冷血屠杀众警察。重案组督察张崇邦（甄子丹饰）亲睹战友被杀，深入追查发现，悍匪首领竟是昔日战友邱刚敖（谢霆锋饰）。原来敖也曾是警队“明日之星”，而将敖推向罪恶深渊的人，却正是邦。宿命令二人再次纠缠，一切恩怨张崇邦如何作出了断。","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/4b55b7fb7d26b39c207431035f98eca8","url":"https://www.baidu.com/s?wd=%E6%80%92%E7%81%AB%C2%B7%E9%87%8D%E6%A1%88+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E6%80%92%E7%81%AB%C2%B7%E9%87%8D%E6%A1%88+%E7%94%B5%E5%BD%B1","hotScore":"18332","hotChange":"same","appUrl":"https://www.baidu.com/s?wd=%E6%80%92%E7%81%AB%C2%B7%E9%87%8D%E6%A1%88+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":5,"word":"中国医生","query":"中国医生 电影","show":["类型：剧情","演员：朱亚文、袁泉"],"desc":"该片根据新冠肺炎疫情防控斗争的真实事件改编，以武汉“封城”期间的金银潭医院为核心故事背景，同时兼顾武汉同济医院、武汉市肺科医院、武汉协和医院、武汉大学人民医院（湖北省人民医院）、火神山医院、方舱医院等兄弟单位，以武汉医护人员、全国各省市援鄂医疗队为人物原型，全景式记录波澜壮阔、艰苦卓绝的抗疫斗争。","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/34ff44561453448795033706b0026fd5","url":"https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%8C%BB%E7%94%9F+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%8C%BB%E7%94%9F+%E7%94%B5%E5%BD%B1","hotScore":"14628","hotChange":"up","appUrl":"https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%8C%BB%E7%94%9F+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":6,"word":"你好李焕英","query":"你好李焕英 电影","show":["类型：剧情","演员：张小斐、贾玲"],"desc":"2001年的某一天，刚刚考上大学的贾晓玲（贾玲 饰）经历了人生中的一次大起大落。一心想要成为母亲骄傲的她却因母亲突遭严重意外而悲痛万分。在贾晓玲情绪崩溃的状态下，竟意外的回到了1981年，并与年轻的母亲李焕英（张小斐 饰）相遇，二人形影不离，宛如闺蜜。与此同时，贾晓玲也结识了一群天真善良的好朋友。贾晓玲以为来到了这片“广阔天地”，她可以凭借自己超前的思维，让母亲“大有作为”，但结果却让贾晓玲感到意","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/0996b964627f4e5ed15df42c8b9caed9","url":"https://www.baidu.com/s?wd=%E4%BD%A0%E5%A5%BD%E6%9D%8E%E7%84%95%E8%8B%B1+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E4%BD%A0%E5%A5%BD%E6%9D%8E%E7%84%95%E8%8B%B1+%E7%94%B5%E5%BD%B1","hotScore":"12502","hotChange":"same","appUrl":"https://www.baidu.com/s?wd=%E4%BD%A0%E5%A5%BD%E6%9D%8E%E7%84%95%E8%8B%B1+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":7,"word":"金刚川","query":"金刚川 电影","show":["类型：剧情","演员：李九霄、张译"],"desc":"1953年，抗美援朝战争进入最终阶段，志愿军战士要在第一时间赶往金城参加最后一场大型战役，如果没能及时赶到，对战况的影响可想而知。志愿军战士们要通过一条名为金刚川的川流，才能继续赶往金城。志愿军工兵连修建了一条木桥，可供战士们通过。但是，美军也知道只要阻止志愿军通过金刚川，自己就能在金城大战中有更大的优势，于是配备着榴弹炮、延时炸弹、燃烧弹以及多发子弹的轰炸机、战斗机不断轰炸木桥与志愿军战士们，而","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/1ccdc9619852b3bb2162ad3a5ff514c6","url":"https://www.baidu.com/s?wd=%E9%87%91%E5%88%9A%E5%B7%9D+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E9%87%91%E5%88%9A%E5%B7%9D+%E7%94%B5%E5%BD%B1","hotScore":"10411","hotChange":"up","appUrl":"https://www.baidu.com/s?wd=%E9%87%91%E5%88%9A%E5%B7%9D+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":8,"word":"动物世界","query":"动物世界 电影","show":["类型：剧情、动作","演员：迈克尔·道格拉斯、李易峰"],"desc":"郑开司（李易峰饰）因被朋友欺骗而背负上数百万的债务，面对重病的母亲和痴心等待的青梅竹马刘青（周冬雨饰），他决心登上“命运号”游轮，改变自己一事无成的人生。只要能在渡轮上的游戏中获胜，他就将有机会将债务一笔勾销，并给家人带来更好的生活。这场游戏看似简单，参与者只需以标着“石头，剪刀，布”的扑克为道具，赢取对手身上的星星标志。但游轮上的亡命徒们毫无底线的欺诈争夺，却让人性的自私与残酷暴露无遗，局中局、","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/0dd5f63486a031345cdbe91e60565e28","url":"https://www.baidu.com/s?wd=%E5%8A%A8%E7%89%A9%E4%B8%96%E7%95%8C+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E5%8A%A8%E7%89%A9%E4%B8%96%E7%95%8C+%E7%94%B5%E5%BD%B1","hotScore":"7755","hotChange":"same","appUrl":"https://www.baidu.com/s?wd=%E5%8A%A8%E7%89%A9%E4%B8%96%E7%95%8C+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":9,"word":"失控玩家","query":"失控玩家 电影","show":["类型：剧情、科幻","演员：瑞安·雷诺兹、乔·基瑞"],"desc":"银行职员盖（瑞安·雷诺兹饰）发现自己原来是一个冒险电子游戏的背景角色，但他不想平庸，竟然在游戏里做起了伸张正义的好人，导致开发商下令要关闭游戏，一名女玩家（朱迪·科默饰）要帮他绝地大反击。","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/68883cbb6d10bc83e97bf13cb21f5f3f","url":"https://www.baidu.com/s?wd=%E5%A4%B1%E6%8E%A7%E7%8E%A9%E5%AE%B6+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E5%A4%B1%E6%8E%A7%E7%8E%A9%E5%AE%B6+%E7%94%B5%E5%BD%B1","hotScore":"7490","hotChange":"same","appUrl":"https://www.baidu.com/s?wd=%E5%A4%B1%E6%8E%A7%E7%8E%A9%E5%AE%B6+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":10,"word":"误杀","query":"误杀 电影","show":["类型：剧情、犯罪","演员：谭卓、肖央"],"desc":"李维杰（肖央饰）与妻子阿玉（谭卓饰）来泰打拼17年，膝下育有两个女儿。年届四十的他靠开设网络公司为生，为人也颇得小镇居民的好感，而这一切美好却被突如其来的不速之客打破。这个充斥走私、贩毒活动的边陲小镇，各种权力交织碾压公平正义。李维杰的大女儿平平（许文姗饰）被督察长的儿子强暴，因反抗误杀对方。李维杰曾亲眼目睹督察长滥用私刑，深知法律无用。为了维护女儿，捍卫家人，李维杰埋尸掩盖一切证据，在时间与空间","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/5af69f79ece3a1eb4f375a78bf03ba15","url":"https://www.baidu.com/s?wd=%E8%AF%AF%E6%9D%80+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E8%AF%AF%E6%9D%80+%E7%94%B5%E5%BD%B1","hotScore":"7108","hotChange":"down","appUrl":"https://www.baidu.com/s?wd=%E8%AF%AF%E6%9D%80+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":11,"word":"八佰","query":"八佰 电影","show":["类型：全部","演员：王千源、张译"],"desc":"1937年淞沪会战末期，中日双方激战已持续三个月，上海濒临沦陷。第88师262旅524团团副谢晋元（杜淳饰）率420余人，孤军坚守最后的防线，留守上海四行仓库。","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/4bf2050efdce8e0c8e86ab37490ad799","url":"https://www.baidu.com/s?wd=%E5%85%AB%E4%BD%B0+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E5%85%AB%E4%BD%B0+%E7%94%B5%E5%BD%B1","hotScore":"6596","hotChange":"up","appUrl":"https://www.baidu.com/s?wd=%E5%85%AB%E4%BD%B0+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":12,"word":"盛夏未来","query":"盛夏未来 电影","show":["类型：剧情","演员：郝蕾、张子枫"],"desc":"影片聚焦00后一代真实青春成长，即将高考的陈辰（张子枫饰）因发现妈妈（郝蕾饰）与王叔叔（祖峰饰）的“外遇”而心情低落，却在这时与校园网红郑宇星（吴磊饰）因为一个谎言意外相识。两人在未解的青春里，携手面对成长的种种难题，勇敢地面对真实的自己，亦在这个夏天过去后，见证了彼此的成长和蜕变。","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/fe5b3c5f9c2dd751afe0448f01162624","url":"https://www.baidu.com/s?wd=%E7%9B%9B%E5%A4%8F%E6%9C%AA%E6%9D%A5+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E7%9B%9B%E5%A4%8F%E6%9C%AA%E6%9D%A5+%E7%94%B5%E5%BD%B1","hotScore":"6242","hotChange":"same","appUrl":"https://www.baidu.com/s?wd=%E7%9B%9B%E5%A4%8F%E6%9C%AA%E6%9D%A5+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":13,"word":"战狼2","query":"战狼2 电影","show":["类型：动作","演员：弗兰克·格里罗、吴京"],"desc":"被开除军籍的冷锋（吴京饰演）本是因找杀害龙小云的凶手（余男饰演）来到非洲，但是却突然被卷入一场非洲国家的叛乱。因为国家之间政治立场的关系，中国军队无法在非洲实行武装行动撤离华侨。而作为退伍老兵的冷锋无法忘记曾经为军人的使命，本来可以安全撤离的他毅然决然地回到了沦陷区，孤身一人带领身陷屠杀中的同胞和难民，展开生死逃亡。随着斗争的持续，体内的狼性逐渐复苏，最终闯入战乱区域，为同胞而战斗。","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/16c94c3a8ee0a40db6ea851b25620136","url":"https://www.baidu.com/s?wd=%E6%88%98%E7%8B%BC2+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E6%88%98%E7%8B%BC2+%E7%94%B5%E5%BD%B1","hotScore":"6216","hotChange":"up","appUrl":"https://www.baidu.com/s?wd=%E6%88%98%E7%8B%BC2+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":14,"word":"我和我的家乡","query":"我和我的家乡 电影","show":["类型：剧情","演员：黄渤、葛优"],"desc":"张北京（葛优饰）续集，镜头对准在北京漂泊的异乡人。从《北京你好》到《北京好人》，张北京的这顶奥运纪念帽始终没有摘下，去年还盼着在奥运开幕式上张艺谋能“给咱扫个镜头”，如今竟潇洒放话没接艺谋拍戏邀约。","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/5bbcc164f824ddbdbdb41cefc96c89a5","url":"https://www.baidu.com/s?wd=%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E5%AE%B6%E4%B9%A1+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E5%AE%B6%E4%B9%A1+%E7%94%B5%E5%BD%B1","hotScore":"6182","hotChange":"same","appUrl":"https://www.baidu.com/s?wd=%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E5%AE%B6%E4%B9%A1+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":15,"word":"五个扑水的少年","query":"五个扑水的少年 电影","show":["类型：剧情","演员：辛云来、李孝谦"],"desc":"在我们普通的青春里，最疯狂的高光时刻会是什么？张伟（辛云来 饰）是一个长相普通、成绩中游的高二学生，是老师和妈妈眼中的“差生”。面对多方打压，他也渐渐对自己失去了信心，直到意外被任命为学校组建的男子花样游泳队队长，他一点点被改变。从来没有被人相信过的他面对队友高飞（李孝谦 饰）、陈铭涵（冯祥琨 饰）、蛐蛐（王川 饰）、王子（吴俊霆 饰）的信任，第一次有了想要赢一次的想法。为了心中重燃的热血，少年们","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/21be6eaba3920e678e1665a5a94ff17b","url":"https://www.baidu.com/s?wd=%E4%BA%94%E4%B8%AA%E6%89%91%E6%B0%B4%E7%9A%84%E5%B0%91%E5%B9%B4+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E4%BA%94%E4%B8%AA%E6%89%91%E6%B0%B4%E7%9A%84%E5%B0%91%E5%B9%B4+%E7%94%B5%E5%BD%B1","hotScore":"6060","hotChange":"down","appUrl":"https://www.baidu.com/s?wd=%E4%BA%94%E4%B8%AA%E6%89%91%E6%B0%B4%E7%9A%84%E5%B0%91%E5%B9%B4+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":16,"word":"灵媒","query":"灵媒 电影","show":["类型：恐怖","演员：萨尼·乌托玛、邦松·纳卡普"],"desc":"泰国伊桑地区是一个被萨满继承的地方，一个纪录片团队来到了这里想拍一个萨满家族守护灵转世的过程，结果发现了家族前世造的孽被诅咒到现世子女身上，看似被巴扬神附身在一位家庭成员身上的女神，并不像她最初看起来那样善良。","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/b31ecc3d61a4e0b02683a4f3084ee060","url":"https://www.baidu.com/s?wd=%E7%81%B5%E5%AA%92+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E7%81%B5%E5%AA%92+%E7%94%B5%E5%BD%B1","hotScore":"5862","hotChange":"up","appUrl":"https://www.baidu.com/s?wd=%E7%81%B5%E5%AA%92+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":17,"word":"速度与激情9","query":"速度与激情9 电影","show":["类型：犯罪、动作","演员：范·迪塞尔、米歇尔·罗德里格兹"],"desc":"“唐老大”多米尼克·特雷托（范·迪塞尔饰）与莱蒂·奥尔蒂斯（米歇尔·罗德里格兹饰）和他的儿子小布莱恩，过上了远离纷扰的平静生活。然而他们也知道，安宁之下总潜藏着危机。这一次，为了保护他所爱的人，唐老大不得不直面过去。他和伙伴们面临的是一场足以引起世界动荡的阴谋，以及一个前所未遇的一流杀手和高能车手。而这个名叫雅各布（约翰·塞纳饰）的人，恰巧是多姆遗落在外的亲弟弟。","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/00f1c5dc0dc0bc5371d89985035328bc","url":"https://www.baidu.com/s?wd=%E9%80%9F%E5%BA%A6%E4%B8%8E%E6%BF%80%E6%83%859+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E9%80%9F%E5%BA%A6%E4%B8%8E%E6%BF%80%E6%83%859+%E7%94%B5%E5%BD%B1","hotScore":"4905","hotChange":"down","appUrl":"https://www.baidu.com/s?wd=%E9%80%9F%E5%BA%A6%E4%B8%8E%E6%BF%80%E6%83%859+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":18,"word":"送你一朵小红花","query":"送你一朵小红花 电影","show":["类型：剧情","演员：易烊千玺、朱媛媛"],"desc":"一个声称能“看见未来”的患癌男孩韦一航（易烊千玺饰），遇见了一个相信“平行世界”的患癌女孩马小远（刘浩存饰），他们都是脑瘤患者，但性格和心态迥异：韦一航经历了开颅手术之后，时刻面对死亡的阴冷召唤，复发的恐惧如影相随，变得有些愤世嫉俗，但又颓唐自闭；马小远却能以爽朗豁达、活泼开朗的性格让周围的人如沐春风。马小远通过只有8个观众的幼稚直播，俘获了韦一航的心。韦一航走出麻木冷漠与自暴自弃，开始懂得父母的","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/1e8b3bbe8870da88ee857bb88601b767","url":"https://www.baidu.com/s?wd=%E9%80%81%E4%BD%A0%E4%B8%80%E6%9C%B5%E5%B0%8F%E7%BA%A2%E8%8A%B1+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E9%80%81%E4%BD%A0%E4%B8%80%E6%9C%B5%E5%B0%8F%E7%BA%A2%E8%8A%B1+%E7%94%B5%E5%BD%B1","hotScore":"4812","hotChange":"down","appUrl":"https://www.baidu.com/s?wd=%E9%80%81%E4%BD%A0%E4%B8%80%E6%9C%B5%E5%B0%8F%E7%BA%A2%E8%8A%B1+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":19,"word":"千与千寻","query":"千与千寻 电影","show":["类型：剧情、动画","演员：柊瑠美、入野自由"],"desc":"10岁的少女千寻与父母一起从都市搬家到了乡下。没想到在搬家的途中，一家人发生了意外。他们进入了汤屋老板魔女控制的奇特世界——在那里不劳动的人将会被变成动物。千寻的爸爸妈妈因贪吃变成了猪，千寻为了救爸爸妈妈经历了很多磨难，在期间她遇见了白龙，一个既聪明又冷酷的少年，在经历了很多事情之后，千寻最后救出了爸爸妈妈，拯救了白龙。","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/d86f1ac2aa9e06a44aac9a4524beb584","url":"https://www.baidu.com/s?wd=%E5%8D%83%E4%B8%8E%E5%8D%83%E5%AF%BB+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E5%8D%83%E4%B8%8E%E5%8D%83%E5%AF%BB+%E7%94%B5%E5%BD%B1","hotScore":"4721","hotChange":"same","appUrl":"https://www.baidu.com/s?wd=%E5%8D%83%E4%B8%8E%E5%8D%83%E5%AF%BB+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":20,"word":"战狼3","query":"战狼3 电影","show":["类型：动作","演员：吴京"],"desc":"早前吴京在微博上曝出的他和余男的合影并附文:“想看《战狼2》吗?”疑似透露出将搭档余男继续《狼战2》。余男在《狼战》第一部中饰演性感的女军官队长,和吴京有大量的对手戏,不知在续集中这位女军官又会迎来什么新的挑战。此外,《战狼2》并不会是完结篇,吴京透露,《战狼3》也已经送审了。","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/a622c548dea18b84548b02eadc943b90","url":"https://www.baidu.com/s?wd=%E6%88%98%E7%8B%BC3+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E6%88%98%E7%8B%BC3+%E7%94%B5%E5%BD%B1","hotScore":"4136","hotChange":"down","appUrl":"https://www.baidu.com/s?wd=%E6%88%98%E7%8B%BC3+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":21,"word":"流浪地球","query":"流浪地球 电影","show":["类型：科幻","演员：吴京、李光洁"],"desc":"近年来，科学家们发现太阳急速衰老膨胀，短时间内包括地球在内的整个太阳系都将被太阳所吞没。为了自救，人类提出一个名为“流浪地球”的大胆计划，即倾全球之力在地球表面建造上万座发动机和转向发动机，推动地球离开太阳系，用2500年的时间奔往新家园。中国航天员刘培强（吴京 饰）在儿子刘启四岁那年前往领航员空间站，和国际同侪肩负起领航者的重任。转眼刘启（屈楚萧 饰）长大，他带着妹妹韩朵朵（赵今麦 饰）偷偷跑到","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/d30af1c75f1d0ef09171c17642cb3a22","url":"https://www.baidu.com/s?wd=%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%83+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%83+%E7%94%B5%E5%BD%B1","hotScore":"4106","hotChange":"up","appUrl":"https://www.baidu.com/s?wd=%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%83+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":22,"word":"黑寡妇","query":"黑寡妇 电影","show":["类型：科幻、动作","演员：蕾切尔·薇兹、弗洛伦丝·皮尤"],"desc":"电影讲述“无限战争”打响之前的黑寡妇个人经历，斯嘉丽·约翰逊重披战袍再演“黑寡妇”娜塔莎·罗曼诺夫。随着新劲敌出现，黑寡妇成为复仇者联盟成员前从未曝光的经历浮出水面，这位初代复联女英雄的黑暗过去即将揭开隐藏的面纱。一股不惜一切要击倒她的力量袭来，娜塔莎必须面对自己在成为复仇者的很久之前那作为间谍的过往，和曾远离的破碎关系。","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/342e54222865f5a4a85368f822cd2a68","url":"https://www.baidu.com/s?wd=%E9%BB%91%E5%AF%A1%E5%A6%87+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E9%BB%91%E5%AF%A1%E5%A6%87+%E7%94%B5%E5%BD%B1","hotScore":"3892","hotChange":"down","appUrl":"https://www.baidu.com/s?wd=%E9%BB%91%E5%AF%A1%E5%A6%87+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":23,"word":"花木兰","query":"花木兰 电影","show":["类型：剧情","演员：巩俐、甄子丹"],"desc":"中国的皇帝颁布法令，要求每家出一名男子服兵役，抵御北方侵略者。作为一名受人尊敬的战士的长女，花木兰（刘亦菲饰）站出来替生病的父亲应征入伍。她女扮男装、化名为花军，经历了种种考验，同时必须利用内在的力量，接纳自己真正的潜能。这是一场史诗般的旅程，让木兰蜕变为一名受人尊敬的战士，也赢得来自国家与骄傲的父亲的尊重。","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/efe157067b67f1621e47c9c2020e25df","url":"https://www.baidu.com/s?wd=%E8%8A%B1%E6%9C%A8%E5%85%B0+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E8%8A%B1%E6%9C%A8%E5%85%B0+%E7%94%B5%E5%BD%B1","hotScore":"3767","hotChange":"same","appUrl":"https://www.baidu.com/s?wd=%E8%8A%B1%E6%9C%A8%E5%85%B0+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":24,"word":"建军大业","query":"建军大业 电影","show":["类型：剧情","演员：朱亚文、刘烨"],"desc":"1927年，北伐战争刚取得重大成果之际，国民党反动派为夺权叛变革命，发动了疯狂的“清共”行动，短短数月，近31万进步同胞遭到残酷杀害，全国震惊，刚刚看到希望的中国即将再次陷入军阀混战和独裁专制的深渊。由于没有自己的武装力量，成立不足7年的中国共产党在国民党反动派的疯狂进攻下，几乎遭遇毁灭性打击。血的教训使毛泽东、周恩来等党内进步分子认识到了“枪杆子里出政权”的硬道理。生死存亡之际，他们临危受命，冒","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/53953736de78f6bb74cfdd3003357e79","url":"https://www.baidu.com/s?wd=%E5%BB%BA%E5%86%9B%E5%A4%A7%E4%B8%9A+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E5%BB%BA%E5%86%9B%E5%A4%A7%E4%B8%9A+%E7%94%B5%E5%BD%B1","hotScore":"3639","hotChange":"up","appUrl":"https://www.baidu.com/s?wd=%E5%BB%BA%E5%86%9B%E5%A4%A7%E4%B8%9A+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":25,"word":"泰坦尼克号","query":"泰坦尼克号 电影","show":["类型：剧情、爱情","演员：莱昂纳多·迪卡普里奥、凯特·温丝莱特"],"desc":"1912年4月10日，号称 “世界工业史上的奇迹”的豪华客轮泰坦尼克号开始了自己的处女航，从英国的南安普顿出发驶往美国纽约。富家少女罗丝（凯特·温丝莱特饰）与母亲及未婚夫卡尔坐上了头等舱；另一边，放荡不羁的少年画家杰克（莱昂纳多·迪卡普里奥饰）也在码头的一场赌博中赢得了下等舱的船票。罗丝厌倦了上流社会虚伪的生活，不愿嫁给卡尔，打算投海自尽，被杰克救起。很快，美丽活泼的罗丝与英俊开朗的杰克相爱，杰克","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/d9771b2389094a292c8c4c51476cc0a8","url":"https://www.baidu.com/s?wd=%E6%B3%B0%E5%9D%A6%E5%B0%BC%E5%85%8B%E5%8F%B7+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E6%B3%B0%E5%9D%A6%E5%B0%BC%E5%85%8B%E5%8F%B7+%E7%94%B5%E5%BD%B1","hotScore":"3635","hotChange":"up","appUrl":"https://www.baidu.com/s?wd=%E6%B3%B0%E5%9D%A6%E5%B0%BC%E5%85%8B%E5%8F%B7+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":26,"word":"神奇动物在哪里","query":"神奇动物在哪里 电影","show":["类型：剧情","演员：凯瑟琳·沃特斯顿、埃迪·雷德梅恩"],"desc":"1926年纽约的魔法世界，危机四伏。某个神秘的力量在街头制造了一连串的破坏，并扬言要向反魔法师狂热组织第二塞勒姆揭露魔法社会的存在，并借他们的手斩草除根。而强大的黑魔法师盖勒特·格林德沃，在欧洲制造了浩劫后消声匿迹，没人能寻得其踪。魔法动物学家纽特·斯卡曼德抵达纽约时，对这日益严重的紧张气氛毫不知情。他即将结束对神奇魔法动物的研究和营救工作开展的环球之旅。在他看似其貌不扬的魔法皮箱里，其实保护着不","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/693cb457277fc4481eb2c26508cac5ee","url":"https://www.baidu.com/s?wd=%E7%A5%9E%E5%A5%87%E5%8A%A8%E7%89%A9%E5%9C%A8%E5%93%AA%E9%87%8C+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E7%A5%9E%E5%A5%87%E5%8A%A8%E7%89%A9%E5%9C%A8%E5%93%AA%E9%87%8C+%E7%94%B5%E5%BD%B1","hotScore":"3502","hotChange":"same","appUrl":"https://www.baidu.com/s?wd=%E7%A5%9E%E5%A5%87%E5%8A%A8%E7%89%A9%E5%9C%A8%E5%93%AA%E9%87%8C+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":27,"word":"我要我们在一起","query":"我要我们在一起 电影","show":["类型：爱情","演员：孙宁、屈楚萧"],"desc":"你有没有爱过一个人，曾经拼了命，只为和TA在一起。十年前，差生吕钦扬当众告白凌一尧，两人从校园步入社会，为了让她幸福，他不惜以命相搏。然而金钱、房子、婚姻等现实的考验，却将两人越推越远。十年长跑，他们能否还记得曾经刻在心底的约定：我要我们在一起。","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/3e3b75f77dca47949029faa4eb4335e6","url":"https://www.baidu.com/s?wd=%E6%88%91%E8%A6%81%E6%88%91%E4%BB%AC%E5%9C%A8%E4%B8%80%E8%B5%B7+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E6%88%91%E8%A6%81%E6%88%91%E4%BB%AC%E5%9C%A8%E4%B8%80%E8%B5%B7+%E7%94%B5%E5%BD%B1","hotScore":"3500","hotChange":"up","appUrl":"https://www.baidu.com/s?wd=%E6%88%91%E8%A6%81%E6%88%91%E4%BB%AC%E5%9C%A8%E4%B8%80%E8%B5%B7+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":28,"word":"寄生虫","query":"寄生虫 电影","show":["类型：剧情","演员：李善均、宋康昊"],"desc":"金基泽全家人平时以给披萨店折叠外卖盒为生，大儿子金基宇被寄托了一家人的生计希望，但是他多次参加高考仍然铩羽而归。在他的同学出国留学前，他让基宇去接替他给一个富家千金辅导英语，这家人就是朴先生家。随着基宇应聘成功，基宇在和女主人朴太太的言谈中发现女主人善良单纯，对她的小儿子也非常溺爱，也因此他发现了可乘之机，编造出了一个艺术辅导师的人设，试图将自己的妹妹介绍进来成为艺术老师。这一家人举家入侵朴家。儿","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/b9c06022fa971984e2810229b8b41037","url":"https://www.baidu.com/s?wd=%E5%AF%84%E7%94%9F%E8%99%AB+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E5%AF%84%E7%94%9F%E8%99%AB+%E7%94%B5%E5%BD%B1","hotScore":"3353","hotChange":"up","appUrl":"https://www.baidu.com/s?wd=%E5%AF%84%E7%94%9F%E8%99%AB+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"},{"index":29,"word":"星际穿越","query":"星际穿越 电影","show":["类型：剧情、科幻","演员：安妮·海瑟薇、马修·麦康纳"],"desc":"地球农作物因气候转变及枯萎病而经常失收，曾是美国国家航空航天局的工程师和航天飞机驾驶员的库珀（马修·麦康纳饰）被迫成为农民以协助解决粮食危机。库珀的10岁女儿墨菲（麦肯基·弗依饰）发现其房间书架上的书本无故掉到地上，认为这是幽灵现象。不久后，一场沙尘暴在墨菲房间中留下二进制坐标，二人驱车到达坐标位置后发现那是北美空防司令部（美国国家航空航天局的秘密基地）。基地负责人布兰德教授（迈克尔·凯恩饰）向库","img":"https://fyb-1.cdn.bcebos.com/fyb-1/20211021/63105d51e2cba73e29e4369686c2a3cf","url":"https://www.baidu.com/s?wd=%E6%98%9F%E9%99%85%E7%A9%BF%E8%B6%8A+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all","rawUrl":"https://www.baidu.com/s?wd=%E6%98%9F%E9%99%85%E7%A9%BF%E8%B6%8A+%E7%94%B5%E5%BD%B1","hotScore":"3260","hotChange":"up","appUrl":"https://www.baidu.com/s?wd=%E6%98%9F%E9%99%85%E7%A9%BF%E8%B6%8A+%E7%94%B5%E5%BD%B1&rsv_dl=fyb_movie_all_all"}],"moreUrl":"https://top.baidu.com/board?tab=movie&sa=fyb_movie","moreAppUrl":"https://top.baidu.com/board?tab=movie&sa=fyb_movie","updateTime":"1634812594"}],"tag":[{"typeName":"category","text":"类型","content":["全部类型","爱情","喜剧","动作","剧情","科幻","恐怖","动画","惊悚","犯罪"],"curIndex":0},{"typeName":"country","text":"地区","content":["全部地区","中国大陆","中国香港","中国台湾","欧美","日本","韩国"],"curIndex":0}],"platform":"pc","curBoardName":"电影榜","logid":"4166318049"},"view":"v-category","tab":"movie","config":{},"rootWrapperClass":"wrapper","showScrollToTop":false}--> <div class="bg-wrapper"> <!--s-frag--> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/movie-bg_07f8ff5dad542565bf58b1b900a60057.png"> <img class="default" src="//fyb-pc-static.cdn.bcebos.com/static/asset/default-movie-bg_c925556129ba6511827d74d77154d20e.png"> <!--/s-frag--> </div> <header class="responsive-wrapper header_3wayL"> <div class="c-font-normal navi-top-wrapper_20foP rel"> <div class="navi-top-left_1Zuqa abs"> <a class="navi-item_2z3vU" href="http://news.baidu.com" target="_blank">新闻</a> <a class="navi-item_2z3vU" href="https://www.hao123.com" target="_blank">hao123</a> <a class="navi-item_2z3vU" href="http://map.baidu.com" target="_blank">地图</a> <a class="navi-item_2z3vU" href="https://haokan.baidu.com" target="_blank">视频</a> <a class="navi-item_2z3vU" href="http://tieba.baidu.com" target="_blank">贴吧</a> <a class="navi-item_2z3vU" href="http://xueshu.baidu.com" target="_blank">学术</a> <a class="navi-item_2z3vU" href="http://www.baidu.com/more/" target="_blank">更多</a> </div> <div class="navi-top-right_33qd2 abs"> <a class="navi-item_2z3vU" href="http://www.baidu.com/" target="_blank">百度首页</a> <!--s-frag--> <a class="c-btn c-btn-mini login-btn_2CUrM">登录</a> <div class="login-form-wrapper_1E7lG c-floating-box"> <div id="login1"></div> </div> <!--/s-frag--> </div> </div> <div class="container tab-wrap_23sEv"> <div class="logo-trends-wrapper_150M5"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/movie@2x_9764219be648f018a4d1fddaebb0118d.png"> </div> <div class="c-theme-color tabs-wrap_3Ac9n"> <a href="/board?tab=homepage" class="tab-item_17MbK" data-click="{&quot;pos&quot;:&quot;tab_homepage&quot;}"> <span>首页</span> </a><a href="/board?tab=realtime" class="tab-item_17MbK" data-click="{&quot;pos&quot;:&quot;tab_realtime&quot;}"> <span>热搜</span> </a><a href="/board?tab=novel" class="tab-item_17MbK" data-click="{&quot;pos&quot;:&quot;tab_novel&quot;}"> <span>小说</span> </a><a href="/board?tab=movie" class="tab-item_17MbK active" data-click="{&quot;pos&quot;:&quot;tab_movie&quot;}"> <span>电影</span> </a><a href="/board?tab=teleplay" class="tab-item_17MbK" data-click="{&quot;pos&quot;:&quot;tab_teleplay&quot;}"> <span>电视剧</span> </a><a href="/board?tab=cartoon" class="tab-item_17MbK" data-click="{&quot;pos&quot;:&quot;tab_cartoon&quot;}"> <span>动漫</span> </a><a href="/board?tab=variety" class="tab-item_17MbK" data-click="{&quot;pos&quot;:&quot;tab_variety&quot;}"> <span>综艺</span> </a><a href="/board?tab=documentary" class="tab-item_17MbK" data-click="{&quot;pos&quot;:&quot;tab_documentary&quot;}"> <span>纪录片</span> </a><a href="/board?tab=car" class="tab-item_17MbK" data-click="{&quot;pos&quot;:&quot;tab_car&quot;}"> <span>汽车</span> </a><a href="/board?tab=game" class="tab-item_17MbK" data-click="{&quot;pos&quot;:&quot;tab_game&quot;}"> <span>游戏</span> </a> </div> </div> <div id="tabs" class="tabs-wrapper_7ri4o"> <div class="container tabs-container__LAaf c-theme-color"> <a href="/board?tab=homepage" class="tab_3QhDq" data-click="{&quot;pos&quot;:&quot;tab_homepage&quot;}"> <span>首页</span>  </a><a href="/board?tab=realtime" class="tab_3QhDq" data-click="{&quot;pos&quot;:&quot;tab_realtime&quot;}"> <span>热搜</span>  </a><a href="/board?tab=novel" class="tab_3QhDq" data-click="{&quot;pos&quot;:&quot;tab_novel&quot;}"> <span>小说</span>  </a><a href="/board?tab=movie" class="tab_3QhDq active" data-click="{&quot;pos&quot;:&quot;tab_movie&quot;}"> <span>电影</span> <div class="active-underline-wrapper_Lv1CQ c-theme-color-bg"></div> </a><a href="/board?tab=teleplay" class="tab_3QhDq" data-click="{&quot;pos&quot;:&quot;tab_teleplay&quot;}"> <span>电视剧</span>  </a><a href="/board?tab=cartoon" class="tab_3QhDq" data-click="{&quot;pos&quot;:&quot;tab_cartoon&quot;}"> <span>动漫</span>  </a><a href="/board?tab=variety" class="tab_3QhDq" data-click="{&quot;pos&quot;:&quot;tab_variety&quot;}"> <span>综艺</span>  </a><a href="/board?tab=documentary" class="tab_3QhDq" data-click="{&quot;pos&quot;:&quot;tab_documentary&quot;}"> <span>纪录片</span>  </a><a href="/board?tab=car" class="tab_3QhDq" data-click="{&quot;pos&quot;:&quot;tab_car&quot;}"> <span>汽车</span>  </a><a href="/board?tab=game" class="tab_3QhDq" data-click="{&quot;pos&quot;:&quot;tab_game&quot;}"> <span>游戏</span>  </a> </div> </div> </header> <main class="rel container_2VTvm"> <div class="responsive-wrapper left-side-wrapper_1kYr7"> <div class="container rel"> <div class="left-side_1rpOJ c-font-normal"> <div class="abs left-side-bg-wrapper_23qvy"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/dark-blue_f373ab5750b03042965ebb35820bf972.png"> </div> <div class="side-title_1wfo5 c-theme-color"> 电影榜 </div> <!--s-frag--> <div class="tags-wrap_InWap"> <div class="c-color-text title_bOM2Q"> 类型 </div> <div class="tags_1mjZF"> <div class="tag-item_2erEC active_1oD--"> 全部类型 </div><div class="tag-item_2erEC "> 爱情 </div><div class="tag-item_2erEC "> 喜剧 </div><div class="tag-item_2erEC "> 动作 </div><div class="tag-item_2erEC "> 剧情 </div><div class="tag-item_2erEC "> 科幻 </div><div class="tag-item_2erEC "> 恐怖 </div><div class="tag-item_2erEC "> 动画 </div><div class="tag-item_2erEC "> 惊悚 </div><div class="tag-item_2erEC "> 犯罪 </div> </div> </div> <div class="tags-wrap_InWap"> <div class="c-color-text title_bOM2Q"> 地区 </div> <div class="tags_1mjZF"> <div class="tag-item_2erEC active_1oD--"> 全部地区 </div><div class="tag-item_2erEC "> 中国大陆 </div><div class="tag-item_2erEC "> 中国香港 </div><div class="tag-item_2erEC "> 中国台湾 </div><div class="tag-item_2erEC "> 欧美 </div><div class="tag-item_2erEC "> 日本 </div><div class="tag-item_2erEC "> 韩国 </div> </div> </div> <!--/s-frag--> </div> </div> </div> <div class="container right-container_2EFJr"> <div class="container-bg_lQ801"> <div class="path-wrapper_3euWM"> <span class="c-font-normal c-color-gray2"> 电影榜 </span><span class="c-font-normal c-color-gray2">  / 全部类型 </span><span class="c-font-normal c-color-gray2">  / 全部地区 </span> </div>   <div style="margin-bottom:20px"> <div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E9%95%BF%E6%B4%A5%E6%B9%96+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg1"> 1 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/0c697ab76e9f3840668f7b260c2782b1?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 300002 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E9%95%BF%E6%B4%A5%E6%B9%96+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  长津湖 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：全部 </div><div class="intro_1l0wp"> 演员：段奕宏、易烊千玺 </div> <div class="c-single-text-ellipsis desc_3CTjT"> 1950年，中国志愿军部队与美军在朝鲜长津湖地区交战，中国人民志愿军第9兵团将美军1个多师分割包围于长津湖地区，歼敌1.3万余人，扭转了战场态势。这次战役收复了三八线以北的东部广大地区，是扭转局势的关键一战，而中国人民志愿军也付出了惨痛的牺牲，在零下三十多摄氏度的极端天气中，很多先烈是以端着枪的姿势被冻僵，体现了志愿军战士服从命令视死如归、冻成冰雕也不退缩的革命精神。 <a href="https://www.baidu.com/s?wd=%E9%95%BF%E6%B4%A5%E6%B9%96+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E6%B2%99%E4%B8%98+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg2"> 2 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/4684b5b0c9c6ac4c6e114554e34af616?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-up_c8c420c124133a8eafa34b36d89cc92a.png"> </div> <div class="hot-index_1Bl1a"> 44159 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E6%B2%99%E4%B8%98+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  沙丘 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：剧情 </div><div class="intro_1l0wp"> 演员：Lior Ashkenazi、Guy Marchand </div> <div class="c-single-text-ellipsis desc_3CTjT"> 故事讲述的是一名以色列的男青年在和女友分手后为了疗情伤来到巴黎，然后在这认识了一位即将退休的侦探，故事由此展开... <a href="https://www.baidu.com/s?wd=%E6%B2%99%E4%B8%98+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E7%A5%96%E5%9B%BD+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg3"> 3 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/b63b7b452e6efddf5cc89f4410322619?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 20631 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E7%A5%96%E5%9B%BD+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  我和我的祖国 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：剧情 </div><div class="intro_1l0wp"> 演员：黄渤、张译 </div> <div class="c-single-text-ellipsis desc_3CTjT"> 《前夜》1949年10月1日中华人民共和国成立前夕，为保障开国大典国旗顺利升起，电动旗杆设计安装者林治远（黄渤饰）争分夺秒排除万难，用一个惊心动魄的未眠之夜确保立国大事“万无一失”，而护旗手老方（耿乐饰）等千千万万参与开国大典的工作人员和人民群众齐心协力，攻克了一个又一个难题，终于保障五星红旗顺利飘扬在天安门广场上空。《相遇》1964年，由于原子弹研发工作保密度极高，同事之间也互不知姓名，在国防科 <a href="https://www.baidu.com/s?wd=%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E7%A5%96%E5%9B%BD+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E7%88%B6%E8%BE%88+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg4"> 4 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/507a36ef0cc71229bea7ba7749928f52?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-down_7631dbf23c7a55f2216e4406b5d4adcf.png"> </div> <div class="hot-index_1Bl1a"> 20566 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E7%88%B6%E8%BE%88+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  我和我的父辈 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：剧情 </div><div class="intro_1l0wp"> 演员：徐峥、吴京 </div> <div class="c-single-text-ellipsis desc_3CTjT"> 讲述不同历史时期、各个代表性阶层群体不忘初心、砥砺前行的奋斗历程，以家庭关系为载体，反映时代的变迁和民族精神的传承延续。《乘风》影片取材于抗日战争时期一支战功卓著的铁骑队伍——冀中骑兵团，他们为保护群众撤离，拼死抵抗日军，电影描绘了一组骑兵团与冀中人民共同抗击日寇侵略的军民群像。《诗》以1969年我国研制长征一号火箭、发射首颗人造卫星为背景，以一个普通航天家庭为切口，展现父母一辈艰苦奋斗、无私奉献 <a href="https://www.baidu.com/s?wd=%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E7%88%B6%E8%BE%88+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E6%80%92%E7%81%AB%C2%B7%E9%87%8D%E6%A1%88+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg5"> 5 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/4b55b7fb7d26b39c207431035f98eca8?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 18332 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E6%80%92%E7%81%AB%C2%B7%E9%87%8D%E6%A1%88+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  怒火·重案 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：动作 </div><div class="intro_1l0wp"> 演员：秦岚、甄子丹 </div> <div class="c-single-text-ellipsis desc_3CTjT"> 重案组布网围剿国际毒枭，突然杀出一组蒙面悍匪“黑吃黑”，更冷血屠杀众警察。重案组督察张崇邦（甄子丹饰）亲睹战友被杀，深入追查发现，悍匪首领竟是昔日战友邱刚敖（谢霆锋饰）。原来敖也曾是警队“明日之星”，而将敖推向罪恶深渊的人，却正是邦。宿命令二人再次纠缠，一切恩怨张崇邦如何作出了断。 <a href="https://www.baidu.com/s?wd=%E6%80%92%E7%81%AB%C2%B7%E9%87%8D%E6%A1%88+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%8C%BB%E7%94%9F+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg6"> 6 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/34ff44561453448795033706b0026fd5?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-up_c8c420c124133a8eafa34b36d89cc92a.png"> </div> <div class="hot-index_1Bl1a"> 14628 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%8C%BB%E7%94%9F+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  中国医生 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：剧情 </div><div class="intro_1l0wp"> 演员：朱亚文、袁泉 </div> <div class="c-single-text-ellipsis desc_3CTjT"> 该片根据新冠肺炎疫情防控斗争的真实事件改编，以武汉“封城”期间的金银潭医院为核心故事背景，同时兼顾武汉同济医院、武汉市肺科医院、武汉协和医院、武汉大学人民医院（湖北省人民医院）、火神山医院、方舱医院等兄弟单位，以武汉医护人员、全国各省市援鄂医疗队为人物原型，全景式记录波澜壮阔、艰苦卓绝的抗疫斗争。 <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%8C%BB%E7%94%9F+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E4%BD%A0%E5%A5%BD%E6%9D%8E%E7%84%95%E8%8B%B1+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg7"> 7 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/0996b964627f4e5ed15df42c8b9caed9?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 12502 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E4%BD%A0%E5%A5%BD%E6%9D%8E%E7%84%95%E8%8B%B1+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  你好李焕英 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：剧情 </div><div class="intro_1l0wp"> 演员：张小斐、贾玲 </div> <div class="c-single-text-ellipsis desc_3CTjT"> 2001年的某一天，刚刚考上大学的贾晓玲（贾玲 饰）经历了人生中的一次大起大落。一心想要成为母亲骄傲的她却因母亲突遭严重意外而悲痛万分。在贾晓玲情绪崩溃的状态下，竟意外的回到了1981年，并与年轻的母亲李焕英（张小斐 饰）相遇，二人形影不离，宛如闺蜜。与此同时，贾晓玲也结识了一群天真善良的好朋友。贾晓玲以为来到了这片“广阔天地”，她可以凭借自己超前的思维，让母亲“大有作为”，但结果却让贾晓玲感到意 <a href="https://www.baidu.com/s?wd=%E4%BD%A0%E5%A5%BD%E6%9D%8E%E7%84%95%E8%8B%B1+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E9%87%91%E5%88%9A%E5%B7%9D+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg8"> 8 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/1ccdc9619852b3bb2162ad3a5ff514c6?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-up_c8c420c124133a8eafa34b36d89cc92a.png"> </div> <div class="hot-index_1Bl1a"> 10411 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E9%87%91%E5%88%9A%E5%B7%9D+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  金刚川 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：剧情 </div><div class="intro_1l0wp"> 演员：李九霄、张译 </div> <div class="c-single-text-ellipsis desc_3CTjT"> 1953年，抗美援朝战争进入最终阶段，志愿军战士要在第一时间赶往金城参加最后一场大型战役，如果没能及时赶到，对战况的影响可想而知。志愿军战士们要通过一条名为金刚川的川流，才能继续赶往金城。志愿军工兵连修建了一条木桥，可供战士们通过。但是，美军也知道只要阻止志愿军通过金刚川，自己就能在金城大战中有更大的优势，于是配备着榴弹炮、延时炸弹、燃烧弹以及多发子弹的轰炸机、战斗机不断轰炸木桥与志愿军战士们，而 <a href="https://www.baidu.com/s?wd=%E9%87%91%E5%88%9A%E5%B7%9D+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E5%8A%A8%E7%89%A9%E4%B8%96%E7%95%8C+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg9"> 9 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/0dd5f63486a031345cdbe91e60565e28?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 7755 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E5%8A%A8%E7%89%A9%E4%B8%96%E7%95%8C+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  动物世界 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：剧情、动作 </div><div class="intro_1l0wp"> 演员：迈克尔·道格拉斯、李易峰 </div> <div class="c-single-text-ellipsis desc_3CTjT"> 郑开司（李易峰饰）因被朋友欺骗而背负上数百万的债务，面对重病的母亲和痴心等待的青梅竹马刘青（周冬雨饰），他决心登上“命运号”游轮，改变自己一事无成的人生。只要能在渡轮上的游戏中获胜，他就将有机会将债务一笔勾销，并给家人带来更好的生活。这场游戏看似简单，参与者只需以标着“石头，剪刀，布”的扑克为道具，赢取对手身上的星星标志。但游轮上的亡命徒们毫无底线的欺诈争夺，却让人性的自私与残酷暴露无遗，局中局、 <a href="https://www.baidu.com/s?wd=%E5%8A%A8%E7%89%A9%E4%B8%96%E7%95%8C+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E5%A4%B1%E6%8E%A7%E7%8E%A9%E5%AE%B6+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg10"> 10 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/68883cbb6d10bc83e97bf13cb21f5f3f?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 7490 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E5%A4%B1%E6%8E%A7%E7%8E%A9%E5%AE%B6+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  失控玩家 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：剧情、科幻 </div><div class="intro_1l0wp"> 演员：瑞安·雷诺兹、乔·基瑞 </div> <div class="c-single-text-ellipsis desc_3CTjT"> 银行职员盖（瑞安·雷诺兹饰）发现自己原来是一个冒险电子游戏的背景角色，但他不想平庸，竟然在游戏里做起了伸张正义的好人，导致开发商下令要关闭游戏，一名女玩家（朱迪·科默饰）要帮他绝地大反击。 <a href="https://www.baidu.com/s?wd=%E5%A4%B1%E6%8E%A7%E7%8E%A9%E5%AE%B6+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E8%AF%AF%E6%9D%80+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg11"> 11 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/5af69f79ece3a1eb4f375a78bf03ba15?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-down_7631dbf23c7a55f2216e4406b5d4adcf.png"> </div> <div class="hot-index_1Bl1a"> 7108 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E8%AF%AF%E6%9D%80+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  误杀 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：剧情、犯罪 </div><div class="intro_1l0wp"> 演员：谭卓、肖央 </div> <div class="c-single-text-ellipsis desc_3CTjT"> 李维杰（肖央饰）与妻子阿玉（谭卓饰）来泰打拼17年，膝下育有两个女儿。年届四十的他靠开设网络公司为生，为人也颇得小镇居民的好感，而这一切美好却被突如其来的不速之客打破。这个充斥走私、贩毒活动的边陲小镇，各种权力交织碾压公平正义。李维杰的大女儿平平（许文姗饰）被督察长的儿子强暴，因反抗误杀对方。李维杰曾亲眼目睹督察长滥用私刑，深知法律无用。为了维护女儿，捍卫家人，李维杰埋尸掩盖一切证据，在时间与空间 <a href="https://www.baidu.com/s?wd=%E8%AF%AF%E6%9D%80+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E5%85%AB%E4%BD%B0+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg12"> 12 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/4bf2050efdce8e0c8e86ab37490ad799?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-up_c8c420c124133a8eafa34b36d89cc92a.png"> </div> <div class="hot-index_1Bl1a"> 6596 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E5%85%AB%E4%BD%B0+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  八佰 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：全部 </div><div class="intro_1l0wp"> 演员：王千源、张译 </div> <div class="c-single-text-ellipsis desc_3CTjT"> 1937年淞沪会战末期，中日双方激战已持续三个月，上海濒临沦陷。第88师262旅524团团副谢晋元（杜淳饰）率420余人，孤军坚守最后的防线，留守上海四行仓库。 <a href="https://www.baidu.com/s?wd=%E5%85%AB%E4%BD%B0+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E7%9B%9B%E5%A4%8F%E6%9C%AA%E6%9D%A5+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg13"> 13 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/fe5b3c5f9c2dd751afe0448f01162624?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 6242 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E7%9B%9B%E5%A4%8F%E6%9C%AA%E6%9D%A5+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  盛夏未来 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：剧情 </div><div class="intro_1l0wp"> 演员：郝蕾、张子枫 </div> <div class="c-single-text-ellipsis desc_3CTjT"> 影片聚焦00后一代真实青春成长，即将高考的陈辰（张子枫饰）因发现妈妈（郝蕾饰）与王叔叔（祖峰饰）的“外遇”而心情低落，却在这时与校园网红郑宇星（吴磊饰）因为一个谎言意外相识。两人在未解的青春里，携手面对成长的种种难题，勇敢地面对真实的自己，亦在这个夏天过去后，见证了彼此的成长和蜕变。 <a href="https://www.baidu.com/s?wd=%E7%9B%9B%E5%A4%8F%E6%9C%AA%E6%9D%A5+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E6%88%98%E7%8B%BC2+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg14"> 14 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/16c94c3a8ee0a40db6ea851b25620136?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-up_c8c420c124133a8eafa34b36d89cc92a.png"> </div> <div class="hot-index_1Bl1a"> 6216 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E6%88%98%E7%8B%BC2+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  战狼2 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：动作 </div><div class="intro_1l0wp"> 演员：弗兰克·格里罗、吴京 </div> <div class="c-single-text-ellipsis desc_3CTjT"> 被开除军籍的冷锋（吴京饰演）本是因找杀害龙小云的凶手（余男饰演）来到非洲，但是却突然被卷入一场非洲国家的叛乱。因为国家之间政治立场的关系，中国军队无法在非洲实行武装行动撤离华侨。而作为退伍老兵的冷锋无法忘记曾经为军人的使命，本来可以安全撤离的他毅然决然地回到了沦陷区，孤身一人带领身陷屠杀中的同胞和难民，展开生死逃亡。随着斗争的持续，体内的狼性逐渐复苏，最终闯入战乱区域，为同胞而战斗。 <a href="https://www.baidu.com/s?wd=%E6%88%98%E7%8B%BC2+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E5%AE%B6%E4%B9%A1+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg15"> 15 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/5bbcc164f824ddbdbdb41cefc96c89a5?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 6182 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E5%AE%B6%E4%B9%A1+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  我和我的家乡 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：剧情 </div><div class="intro_1l0wp"> 演员：黄渤、葛优 </div> <div class="c-single-text-ellipsis desc_3CTjT"> 张北京（葛优饰）续集，镜头对准在北京漂泊的异乡人。从《北京你好》到《北京好人》，张北京的这顶奥运纪念帽始终没有摘下，去年还盼着在奥运开幕式上张艺谋能“给咱扫个镜头”，如今竟潇洒放话没接艺谋拍戏邀约。 <a href="https://www.baidu.com/s?wd=%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E5%AE%B6%E4%B9%A1+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E4%BA%94%E4%B8%AA%E6%89%91%E6%B0%B4%E7%9A%84%E5%B0%91%E5%B9%B4+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg16"> 16 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/21be6eaba3920e678e1665a5a94ff17b?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-down_7631dbf23c7a55f2216e4406b5d4adcf.png"> </div> <div class="hot-index_1Bl1a"> 6060 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E4%BA%94%E4%B8%AA%E6%89%91%E6%B0%B4%E7%9A%84%E5%B0%91%E5%B9%B4+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  五个扑水的少年 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：剧情 </div><div class="intro_1l0wp"> 演员：辛云来、李孝谦 </div> <div class="c-single-text-ellipsis desc_3CTjT"> 在我们普通的青春里，最疯狂的高光时刻会是什么？张伟（辛云来 饰）是一个长相普通、成绩中游的高二学生，是老师和妈妈眼中的“差生”。面对多方打压，他也渐渐对自己失去了信心，直到意外被任命为学校组建的男子花样游泳队队长，他一点点被改变。从来没有被人相信过的他面对队友高飞（李孝谦 饰）、陈铭涵（冯祥琨 饰）、蛐蛐（王川 饰）、王子（吴俊霆 饰）的信任，第一次有了想要赢一次的想法。为了心中重燃的热血，少年们 <a href="https://www.baidu.com/s?wd=%E4%BA%94%E4%B8%AA%E6%89%91%E6%B0%B4%E7%9A%84%E5%B0%91%E5%B9%B4+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E7%81%B5%E5%AA%92+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg17"> 17 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/b31ecc3d61a4e0b02683a4f3084ee060?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-up_c8c420c124133a8eafa34b36d89cc92a.png"> </div> <div class="hot-index_1Bl1a"> 5862 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E7%81%B5%E5%AA%92+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  灵媒 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：恐怖 </div><div class="intro_1l0wp"> 演员：萨尼·乌托玛、邦松·纳卡普 </div> <div class="c-single-text-ellipsis desc_3CTjT"> 泰国伊桑地区是一个被萨满继承的地方，一个纪录片团队来到了这里想拍一个萨满家族守护灵转世的过程，结果发现了家族前世造的孽被诅咒到现世子女身上，看似被巴扬神附身在一位家庭成员身上的女神，并不像她最初看起来那样善良。 <a href="https://www.baidu.com/s?wd=%E7%81%B5%E5%AA%92+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E9%80%9F%E5%BA%A6%E4%B8%8E%E6%BF%80%E6%83%859+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg18"> 18 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/00f1c5dc0dc0bc5371d89985035328bc?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-down_7631dbf23c7a55f2216e4406b5d4adcf.png"> </div> <div class="hot-index_1Bl1a"> 4905 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E9%80%9F%E5%BA%A6%E4%B8%8E%E6%BF%80%E6%83%859+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  速度与激情9 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：犯罪、动作 </div><div class="intro_1l0wp"> 演员：范·迪塞尔、米歇尔·罗德里格兹 </div> <div class="c-single-text-ellipsis desc_3CTjT"> “唐老大”多米尼克·特雷托（范·迪塞尔饰）与莱蒂·奥尔蒂斯（米歇尔·罗德里格兹饰）和他的儿子小布莱恩，过上了远离纷扰的平静生活。然而他们也知道，安宁之下总潜藏着危机。这一次，为了保护他所爱的人，唐老大不得不直面过去。他和伙伴们面临的是一场足以引起世界动荡的阴谋，以及一个前所未遇的一流杀手和高能车手。而这个名叫雅各布（约翰·塞纳饰）的人，恰巧是多姆遗落在外的亲弟弟。 <a href="https://www.baidu.com/s?wd=%E9%80%9F%E5%BA%A6%E4%B8%8E%E6%BF%80%E6%83%859+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E9%80%81%E4%BD%A0%E4%B8%80%E6%9C%B5%E5%B0%8F%E7%BA%A2%E8%8A%B1+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg19"> 19 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/1e8b3bbe8870da88ee857bb88601b767?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-down_7631dbf23c7a55f2216e4406b5d4adcf.png"> </div> <div class="hot-index_1Bl1a"> 4812 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E9%80%81%E4%BD%A0%E4%B8%80%E6%9C%B5%E5%B0%8F%E7%BA%A2%E8%8A%B1+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  送你一朵小红花 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：剧情 </div><div class="intro_1l0wp"> 演员：易烊千玺、朱媛媛 </div> <div class="c-single-text-ellipsis desc_3CTjT"> 一个声称能“看见未来”的患癌男孩韦一航（易烊千玺饰），遇见了一个相信“平行世界”的患癌女孩马小远（刘浩存饰），他们都是脑瘤患者，但性格和心态迥异：韦一航经历了开颅手术之后，时刻面对死亡的阴冷召唤，复发的恐惧如影相随，变得有些愤世嫉俗，但又颓唐自闭；马小远却能以爽朗豁达、活泼开朗的性格让周围的人如沐春风。马小远通过只有8个观众的幼稚直播，俘获了韦一航的心。韦一航走出麻木冷漠与自暴自弃，开始懂得父母的 <a href="https://www.baidu.com/s?wd=%E9%80%81%E4%BD%A0%E4%B8%80%E6%9C%B5%E5%B0%8F%E7%BA%A2%E8%8A%B1+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E5%8D%83%E4%B8%8E%E5%8D%83%E5%AF%BB+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg20"> 20 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/d86f1ac2aa9e06a44aac9a4524beb584?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 4721 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E5%8D%83%E4%B8%8E%E5%8D%83%E5%AF%BB+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  千与千寻 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：剧情、动画 </div><div class="intro_1l0wp"> 演员：柊瑠美、入野自由 </div> <div class="c-single-text-ellipsis desc_3CTjT"> 10岁的少女千寻与父母一起从都市搬家到了乡下。没想到在搬家的途中，一家人发生了意外。他们进入了汤屋老板魔女控制的奇特世界——在那里不劳动的人将会被变成动物。千寻的爸爸妈妈因贪吃变成了猪，千寻为了救爸爸妈妈经历了很多磨难，在期间她遇见了白龙，一个既聪明又冷酷的少年，在经历了很多事情之后，千寻最后救出了爸爸妈妈，拯救了白龙。 <a href="https://www.baidu.com/s?wd=%E5%8D%83%E4%B8%8E%E5%8D%83%E5%AF%BB+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E6%88%98%E7%8B%BC3+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg21"> 21 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/a622c548dea18b84548b02eadc943b90?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-down_7631dbf23c7a55f2216e4406b5d4adcf.png"> </div> <div class="hot-index_1Bl1a"> 4136 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E6%88%98%E7%8B%BC3+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  战狼3 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：动作 </div><div class="intro_1l0wp"> 演员：吴京 </div> <div class="c-single-text-ellipsis desc_3CTjT"> 早前吴京在微博上曝出的他和余男的合影并附文:“想看《战狼2》吗?”疑似透露出将搭档余男继续《狼战2》。余男在《狼战》第一部中饰演性感的女军官队长,和吴京有大量的对手戏,不知在续集中这位女军官又会迎来什么新的挑战。此外,《战狼2》并不会是完结篇,吴京透露,《战狼3》也已经送审了。 <a href="https://www.baidu.com/s?wd=%E6%88%98%E7%8B%BC3+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%83+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg22"> 22 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/d30af1c75f1d0ef09171c17642cb3a22?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-up_c8c420c124133a8eafa34b36d89cc92a.png"> </div> <div class="hot-index_1Bl1a"> 4106 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%83+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  流浪地球 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：科幻 </div><div class="intro_1l0wp"> 演员：吴京、李光洁 </div> <div class="c-single-text-ellipsis desc_3CTjT"> 近年来，科学家们发现太阳急速衰老膨胀，短时间内包括地球在内的整个太阳系都将被太阳所吞没。为了自救，人类提出一个名为“流浪地球”的大胆计划，即倾全球之力在地球表面建造上万座发动机和转向发动机，推动地球离开太阳系，用2500年的时间奔往新家园。中国航天员刘培强（吴京 饰）在儿子刘启四岁那年前往领航员空间站，和国际同侪肩负起领航者的重任。转眼刘启（屈楚萧 饰）长大，他带着妹妹韩朵朵（赵今麦 饰）偷偷跑到 <a href="https://www.baidu.com/s?wd=%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%83+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E9%BB%91%E5%AF%A1%E5%A6%87+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg23"> 23 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/342e54222865f5a4a85368f822cd2a68?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-down_7631dbf23c7a55f2216e4406b5d4adcf.png"> </div> <div class="hot-index_1Bl1a"> 3892 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E9%BB%91%E5%AF%A1%E5%A6%87+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  黑寡妇 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：科幻、动作 </div><div class="intro_1l0wp"> 演员：蕾切尔·薇兹、弗洛伦丝·皮尤 </div> <div class="c-single-text-ellipsis desc_3CTjT"> 电影讲述“无限战争”打响之前的黑寡妇个人经历，斯嘉丽·约翰逊重披战袍再演“黑寡妇”娜塔莎·罗曼诺夫。随着新劲敌出现，黑寡妇成为复仇者联盟成员前从未曝光的经历浮出水面，这位初代复联女英雄的黑暗过去即将揭开隐藏的面纱。一股不惜一切要击倒她的力量袭来，娜塔莎必须面对自己在成为复仇者的很久之前那作为间谍的过往，和曾远离的破碎关系。 <a href="https://www.baidu.com/s?wd=%E9%BB%91%E5%AF%A1%E5%A6%87+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E8%8A%B1%E6%9C%A8%E5%85%B0+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg24"> 24 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/efe157067b67f1621e47c9c2020e25df?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 3767 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E8%8A%B1%E6%9C%A8%E5%85%B0+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  花木兰 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：剧情 </div><div class="intro_1l0wp"> 演员：巩俐、甄子丹 </div> <div class="c-single-text-ellipsis desc_3CTjT"> 中国的皇帝颁布法令，要求每家出一名男子服兵役，抵御北方侵略者。作为一名受人尊敬的战士的长女，花木兰（刘亦菲饰）站出来替生病的父亲应征入伍。她女扮男装、化名为花军，经历了种种考验，同时必须利用内在的力量，接纳自己真正的潜能。这是一场史诗般的旅程，让木兰蜕变为一名受人尊敬的战士，也赢得来自国家与骄傲的父亲的尊重。 <a href="https://www.baidu.com/s?wd=%E8%8A%B1%E6%9C%A8%E5%85%B0+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E5%BB%BA%E5%86%9B%E5%A4%A7%E4%B8%9A+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg25"> 25 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/53953736de78f6bb74cfdd3003357e79?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-up_c8c420c124133a8eafa34b36d89cc92a.png"> </div> <div class="hot-index_1Bl1a"> 3639 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E5%BB%BA%E5%86%9B%E5%A4%A7%E4%B8%9A+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  建军大业 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：剧情 </div><div class="intro_1l0wp"> 演员：朱亚文、刘烨 </div> <div class="c-single-text-ellipsis desc_3CTjT"> 1927年，北伐战争刚取得重大成果之际，国民党反动派为夺权叛变革命，发动了疯狂的“清共”行动，短短数月，近31万进步同胞遭到残酷杀害，全国震惊，刚刚看到希望的中国即将再次陷入军阀混战和独裁专制的深渊。由于没有自己的武装力量，成立不足7年的中国共产党在国民党反动派的疯狂进攻下，几乎遭遇毁灭性打击。血的教训使毛泽东、周恩来等党内进步分子认识到了“枪杆子里出政权”的硬道理。生死存亡之际，他们临危受命，冒 <a href="https://www.baidu.com/s?wd=%E5%BB%BA%E5%86%9B%E5%A4%A7%E4%B8%9A+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E6%B3%B0%E5%9D%A6%E5%B0%BC%E5%85%8B%E5%8F%B7+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg26"> 26 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/d9771b2389094a292c8c4c51476cc0a8?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-up_c8c420c124133a8eafa34b36d89cc92a.png"> </div> <div class="hot-index_1Bl1a"> 3635 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E6%B3%B0%E5%9D%A6%E5%B0%BC%E5%85%8B%E5%8F%B7+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  泰坦尼克号 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：剧情、爱情 </div><div class="intro_1l0wp"> 演员：莱昂纳多·迪卡普里奥、凯特·温丝莱特 </div> <div class="c-single-text-ellipsis desc_3CTjT"> 1912年4月10日，号称 “世界工业史上的奇迹”的豪华客轮泰坦尼克号开始了自己的处女航，从英国的南安普顿出发驶往美国纽约。富家少女罗丝（凯特·温丝莱特饰）与母亲及未婚夫卡尔坐上了头等舱；另一边，放荡不羁的少年画家杰克（莱昂纳多·迪卡普里奥饰）也在码头的一场赌博中赢得了下等舱的船票。罗丝厌倦了上流社会虚伪的生活，不愿嫁给卡尔，打算投海自尽，被杰克救起。很快，美丽活泼的罗丝与英俊开朗的杰克相爱，杰克 <a href="https://www.baidu.com/s?wd=%E6%B3%B0%E5%9D%A6%E5%B0%BC%E5%85%8B%E5%8F%B7+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E7%A5%9E%E5%A5%87%E5%8A%A8%E7%89%A9%E5%9C%A8%E5%93%AA%E9%87%8C+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg27"> 27 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/693cb457277fc4481eb2c26508cac5ee?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 3502 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E7%A5%9E%E5%A5%87%E5%8A%A8%E7%89%A9%E5%9C%A8%E5%93%AA%E9%87%8C+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  神奇动物在哪里 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：剧情 </div><div class="intro_1l0wp"> 演员：凯瑟琳·沃特斯顿、埃迪·雷德梅恩 </div> <div class="c-single-text-ellipsis desc_3CTjT"> 1926年纽约的魔法世界，危机四伏。某个神秘的力量在街头制造了一连串的破坏，并扬言要向反魔法师狂热组织第二塞勒姆揭露魔法社会的存在，并借他们的手斩草除根。而强大的黑魔法师盖勒特·格林德沃，在欧洲制造了浩劫后消声匿迹，没人能寻得其踪。魔法动物学家纽特·斯卡曼德抵达纽约时，对这日益严重的紧张气氛毫不知情。他即将结束对神奇魔法动物的研究和营救工作开展的环球之旅。在他看似其貌不扬的魔法皮箱里，其实保护着不 <a href="https://www.baidu.com/s?wd=%E7%A5%9E%E5%A5%87%E5%8A%A8%E7%89%A9%E5%9C%A8%E5%93%AA%E9%87%8C+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E6%88%91%E8%A6%81%E6%88%91%E4%BB%AC%E5%9C%A8%E4%B8%80%E8%B5%B7+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg28"> 28 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/3e3b75f77dca47949029faa4eb4335e6?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-up_c8c420c124133a8eafa34b36d89cc92a.png"> </div> <div class="hot-index_1Bl1a"> 3500 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E6%88%91%E8%A6%81%E6%88%91%E4%BB%AC%E5%9C%A8%E4%B8%80%E8%B5%B7+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  我要我们在一起 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：爱情 </div><div class="intro_1l0wp"> 演员：孙宁、屈楚萧 </div> <div class="c-single-text-ellipsis desc_3CTjT"> 你有没有爱过一个人，曾经拼了命，只为和TA在一起。十年前，差生吕钦扬当众告白凌一尧，两人从校园步入社会，为了让她幸福，他不惜以命相搏。然而金钱、房子、婚姻等现实的考验，却将两人越推越远。十年长跑，他们能否还记得曾经刻在心底的约定：我要我们在一起。 <a href="https://www.baidu.com/s?wd=%E6%88%91%E8%A6%81%E6%88%91%E4%BB%AC%E5%9C%A8%E4%B8%80%E8%B5%B7+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E5%AF%84%E7%94%9F%E8%99%AB+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg29"> 29 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/b9c06022fa971984e2810229b8b41037?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-up_c8c420c124133a8eafa34b36d89cc92a.png"> </div> <div class="hot-index_1Bl1a"> 3353 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E5%AF%84%E7%94%9F%E8%99%AB+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  寄生虫 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：剧情 </div><div class="intro_1l0wp"> 演员：李善均、宋康昊 </div> <div class="c-single-text-ellipsis desc_3CTjT"> 金基泽全家人平时以给披萨店折叠外卖盒为生，大儿子金基宇被寄托了一家人的生计希望，但是他多次参加高考仍然铩羽而归。在他的同学出国留学前，他让基宇去接替他给一个富家千金辅导英语，这家人就是朴先生家。随着基宇应聘成功，基宇在和女主人朴太太的言谈中发现女主人善良单纯，对她的小儿子也非常溺爱，也因此他发现了可乘之机，编造出了一个艺术辅导师的人设，试图将自己的妹妹介绍进来成为艺术老师。这一家人举家入侵朴家。儿 <a href="https://www.baidu.com/s?wd=%E5%AF%84%E7%94%9F%E8%99%AB+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo "> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E6%98%9F%E9%99%85%E7%A9%BF%E8%B6%8A+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" target="_blank"> <div class="index_1Ew5p c-index-bg30"> 30 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb-1/20211021/63105d51e2cba73e29e4369686c2a3cf?x-bce-process=image/resize,m_fill,w_160,h_214" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-up_c8c420c124133a8eafa34b36d89cc92a.png"> </div> <div class="hot-index_1Bl1a"> 3260 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E6%98%9F%E9%99%85%E7%A9%BF%E8%B6%8A+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  星际穿越 </div>  </a> <!--s-frag--> <div class="intro_1l0wp"> 类型：剧情、科幻 </div><div class="intro_1l0wp"> 演员：安妮·海瑟薇、马修·麦康纳 </div> <div class="c-single-text-ellipsis desc_3CTjT"> 地球农作物因气候转变及枯萎病而经常失收，曾是美国国家航空航天局的工程师和航天飞机驾驶员的库珀（马修·麦康纳饰）被迫成为农民以协助解决粮食危机。库珀的10岁女儿墨菲（麦肯基·弗依饰）发现其房间书架上的书本无故掉到地上，认为这是幽灵现象。不久后，一场沙尘暴在墨菲房间中留下二进制坐标，二人驱车到达坐标位置后发现那是北美空防司令部（美国国家航空航天局的秘密基地）。基地负责人布兰德教授（迈克尔·凯恩饰）向库 <a href="https://www.baidu.com/s?wd=%E6%98%9F%E9%99%85%E7%A9%BF%E8%B6%8A+%E7%94%B5%E5%BD%B1&amp;rsv_dl=fyb_movie_all_all" class="look-more_3oNWC" target="_blank"> 查看更多&gt; </a> </div> <!--/s-frag--> </div> </div>  </div>  </div> </div> </main> <div class="container footer_aoJsU"> <a class="c-font-small" href="//www.baidu.com/cache/setindex/index.html" target="_blank">设为首页</a> <a class="c-font-small" href="//home.baidu.com" target="_blank">关于百度</a> <a class="c-font-small" href="http://ir.baidu.com" target="_blank">About Baidu</a> <a class="c-font-small" href="//www.baidu.com/duty" target="_blank">使用百度前必读</a> <a class="c-font-small" href="//help.baidu.com/newadd?prod_id=1&amp;category=4" target="_blank">意见反馈</a> <a class="c-font-small" href="//help.baidu.com" target="_blank">帮助中心</a> <span class="c-font-small">&copy;2021 Baidu</span> </div> <div class="container_2R1hQ">  <a href="/board?page=rule&amp;tab=movie"> <i class="c-icon"></i> <div class="side-float-popup">查看榜单规则</div> </a>   </div> </div></div>
+                <script src="//fyb-pc-static.cdn.bcebos.com/static/main_b552188.js" crossorigin="anonymous"></script>
+            </body>
+        </html>
+        
